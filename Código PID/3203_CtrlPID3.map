@@ -1,0 +1,1846 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_RSEG2                         
+C:   00000000  s_XABS                          
+C:   00000001  l_RSEG2                         
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000002  l_BSEG_BYTES                    
+C:   00000002  l_OSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_OSEG                          
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   0000000F  l_BSEG                          
+C:   00000010  s_REG_BANK_2                    
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   0000001E  l_CONST                         
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000029  l_HOME                          
+C:   00000029  s_GSINIT0                       
+C:   0000002A  l_GSINIT4                       
+C:   0000002C  s_GSINIT1                       
+C:   0000002C  s_GSINIT2                       
+C:   00000036  s_GSINIT3                       
+C:   00000046  l_GSINIT                        
+C:   00000048  l_SSEG                          
+C:   00000058  s_GSINIT4                       
+C:   0000005A  l_DSEG                          
+C:   00000082  s_GSINIT                        
+C:   00000082  s_GSINIT5                       
+C:   000000B8  s_SSEG                          
+C:   000000C8  s_GSFINAL                       
+C:   000000CB  s_CSEG                          
+C:   00000100  l_IRAM                          
+C:   000006CD  l_CSEG                          
+C:   00000798  s_CONST                         
+C:   000007B6  s_XINIT                         
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+RSEG2                               00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B7  G$lcdCS$0$0                        3203_CtrlPID3
+     000000B7  _lcdCS                             3203_CtrlPID3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           3203_CtrlPID3
+     00000080  G$P0_0$0$0                         3203_CtrlPID3
+     00000080  _P0                                3203_CtrlPID3
+     00000080  _P0_0                              3203_CtrlPID3
+     00000081  G$P0_1$0$0                         3203_CtrlPID3
+     00000081  G$SP$0$0                           3203_CtrlPID3
+     00000081  _P0_1                              3203_CtrlPID3
+     00000081  _SP                                3203_CtrlPID3
+     00000082  G$DPL$0$0                          3203_CtrlPID3
+     00000082  G$P0_2$0$0                         3203_CtrlPID3
+     00000082  _DPL                               3203_CtrlPID3
+     00000082  _P0_2                              3203_CtrlPID3
+     00000083  G$DPH$0$0                          3203_CtrlPID3
+     00000083  G$P0_3$0$0                         3203_CtrlPID3
+     00000083  _DPH                               3203_CtrlPID3
+     00000083  _P0_3                              3203_CtrlPID3
+     00000084  G$P0_4$0$0                         3203_CtrlPID3
+     00000084  _P0_4                              3203_CtrlPID3
+     00000085  G$P0_5$0$0                         3203_CtrlPID3
+     00000085  _P0_5                              3203_CtrlPID3
+     00000086  G$P0_6$0$0                         3203_CtrlPID3
+     00000086  _P0_6                              3203_CtrlPID3
+     00000087  G$P0_7$0$0                         3203_CtrlPID3
+     00000087  G$PCON$0$0                         3203_CtrlPID3
+     00000087  _P0_7                              3203_CtrlPID3
+     00000087  _PCON                              3203_CtrlPID3
+     00000088  G$IT0$0$0                          3203_CtrlPID3
+     00000088  G$TCON$0$0                         3203_CtrlPID3
+     00000088  _IT0                               3203_CtrlPID3
+     00000088  _TCON                              3203_CtrlPID3
+     00000089  G$IE0$0$0                          3203_CtrlPID3
+     00000089  G$TMOD$0$0                         3203_CtrlPID3
+     00000089  _IE0                               3203_CtrlPID3
+     00000089  _TMOD                              3203_CtrlPID3
+     0000008A  G$IT1$0$0                          3203_CtrlPID3
+     0000008A  G$TL0$0$0                          3203_CtrlPID3
+     0000008A  _IT1                               3203_CtrlPID3
+     0000008A  _TL0                               3203_CtrlPID3
+     0000008B  G$IE1$0$0                          3203_CtrlPID3
+     0000008B  G$TL1$0$0                          3203_CtrlPID3
+     0000008B  _IE1                               3203_CtrlPID3
+     0000008B  _TL1                               3203_CtrlPID3
+     0000008C  G$TH0$0$0                          3203_CtrlPID3
+     0000008C  G$TR0$0$0                          3203_CtrlPID3
+     0000008C  _TH0                               3203_CtrlPID3
+     0000008C  _TR0                               3203_CtrlPID3
+     0000008D  G$TF0$0$0                          3203_CtrlPID3
+     0000008D  G$TH1$0$0                          3203_CtrlPID3
+     0000008D  _TF0                               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  _TH1                               3203_CtrlPID3
+     0000008E  G$TR1$0$0                          3203_CtrlPID3
+     0000008E  _TR1                               3203_CtrlPID3
+     0000008F  G$CLKREG$0$0                       3203_CtrlPID3
+     0000008F  G$TF1$0$0                          3203_CtrlPID3
+     0000008F  _CLKREG                            3203_CtrlPID3
+     0000008F  _TF1                               3203_CtrlPID3
+     00000090  G$LCD$0$0                          3203_CtrlPID3
+     00000090  G$P1$0$0                           3203_CtrlPID3
+     00000090  G$P1_0$0$0                         3203_CtrlPID3
+     00000090  G$S1D1$0$0                         3203_CtrlPID3
+     00000090  _LCD                               3203_CtrlPID3
+     00000090  _P1                                3203_CtrlPID3
+     00000090  _P1_0                              3203_CtrlPID3
+     00000090  _S1D1                              3203_CtrlPID3
+     00000091  G$P1_1$0$0                         3203_CtrlPID3
+     00000091  G$S2D2$0$0                         3203_CtrlPID3
+     00000091  _P1_1                              3203_CtrlPID3
+     00000091  _S2D2                              3203_CtrlPID3
+     00000092  G$P1_2$0$0                         3203_CtrlPID3
+     00000092  _P1_2                              3203_CtrlPID3
+     00000093  G$P1_3$0$0                         3203_CtrlPID3
+     00000093  G$adcCS$0$0                        3203_CtrlPID3
+     00000093  _P1_3                              3203_CtrlPID3
+     00000093  _adcCS                             3203_CtrlPID3
+     00000094  G$P1_4$0$0                         3203_CtrlPID3
+     00000094  _P1_4                              3203_CtrlPID3
+     00000095  G$P1_5$0$0                         3203_CtrlPID3
+     00000095  _P1_5                              3203_CtrlPID3
+     00000096  G$P1_6$0$0                         3203_CtrlPID3
+     00000096  _P1_6                              3203_CtrlPID3
+     00000097  G$P1_7$0$0                         3203_CtrlPID3
+     00000097  _P1_7                              3203_CtrlPID3
+     00000098  G$RI$0$0                           3203_CtrlPID3
+     00000098  G$SCON$0$0                         3203_CtrlPID3
+     00000098  _RI                                3203_CtrlPID3
+     00000098  _SCON                              3203_CtrlPID3
+     00000099  G$SBUF$0$0                         3203_CtrlPID3
+     00000099  G$TI$0$0                           3203_CtrlPID3
+     00000099  _SBUF                              3203_CtrlPID3
+     00000099  _TI                                3203_CtrlPID3
+     0000009A  G$RB8$0$0                          3203_CtrlPID3
+     0000009A  _RB8                               3203_CtrlPID3
+     0000009B  G$TB8$0$0                          3203_CtrlPID3
+     0000009B  _TB8                               3203_CtrlPID3
+     0000009C  G$REN$0$0                          3203_CtrlPID3
+     0000009C  _REN                               3203_CtrlPID3
+     0000009D  G$SM2$0$0                          3203_CtrlPID3
+     0000009D  _SM2                               3203_CtrlPID3
+     0000009E  G$SM1$0$0                          3203_CtrlPID3
+     0000009E  _SM1                               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009F  G$SM0$0$0                          3203_CtrlPID3
+     0000009F  _SM0                               3203_CtrlPID3
+     000000A0  G$P2$0$0                           3203_CtrlPID3
+     000000A0  G$P2_0$0$0                         3203_CtrlPID3
+     000000A0  _P2                                3203_CtrlPID3
+     000000A0  _P2_0                              3203_CtrlPID3
+     000000A0  __XPAGE                            
+     000000A1  G$P2_1$0$0                         3203_CtrlPID3
+     000000A1  _P2_1                              3203_CtrlPID3
+     000000A2  G$P2_2$0$0                         3203_CtrlPID3
+     000000A2  _P2_2                              3203_CtrlPID3
+     000000A3  G$P2_3$0$0                         3203_CtrlPID3
+     000000A3  _P2_3                              3203_CtrlPID3
+     000000A4  G$P2_4$0$0                         3203_CtrlPID3
+     000000A4  _P2_4                              3203_CtrlPID3
+     000000A5  G$P2_5$0$0                         3203_CtrlPID3
+     000000A5  _P2_5                              3203_CtrlPID3
+     000000A6  G$P2_6$0$0                         3203_CtrlPID3
+     000000A6  _P2_6                              3203_CtrlPID3
+     000000A7  G$P2_7$0$0                         3203_CtrlPID3
+     000000A7  _P2_7                              3203_CtrlPID3
+     000000A8  G$EX0$0$0                          3203_CtrlPID3
+     000000A8  G$IE$0$0                           3203_CtrlPID3
+     000000A8  _EX0                               3203_CtrlPID3
+     000000A8  _IE                                3203_CtrlPID3
+     000000A9  G$ET0$0$0                          3203_CtrlPID3
+     000000A9  _ET0                               3203_CtrlPID3
+     000000AA  G$EX1$0$0                          3203_CtrlPID3
+     000000AA  _EX1                               3203_CtrlPID3
+     000000AB  G$ET1$0$0                          3203_CtrlPID3
+     000000AB  _ET1                               3203_CtrlPID3
+     000000AC  G$ES$0$0                           3203_CtrlPID3
+     000000AC  _ES                                3203_CtrlPID3
+     000000AF  G$EA$0$0                           3203_CtrlPID3
+     000000AF  _EA                                3203_CtrlPID3
+     000000B0  G$P3$0$0                           3203_CtrlPID3
+     000000B0  G$P3_0$0$0                         3203_CtrlPID3
+     000000B0  G$RXD$0$0                          3203_CtrlPID3
+     000000B0  G$RxLed$0$0                        3203_CtrlPID3
+     000000B0  _P3                                3203_CtrlPID3
+     000000B0  _P3_0                              3203_CtrlPID3
+     000000B0  _RXD                               3203_CtrlPID3
+     000000B0  _RxLed                             3203_CtrlPID3
+     000000B1  G$P3_1$0$0                         3203_CtrlPID3
+     000000B1  G$TXD$0$0                          3203_CtrlPID3
+     000000B1  G$TxBip$0$0                        3203_CtrlPID3
+     000000B1  _P3_1                              3203_CtrlPID3
+     000000B1  _TXD                               3203_CtrlPID3
+     000000B1  _TxBip                             3203_CtrlPID3
+     000000B2  G$INT0$0$0                         3203_CtrlPID3
+     000000B2  G$P3_2$0$0                         3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B2  G$SwInt$0$0                        3203_CtrlPID3
+     000000B2  _INT0                              3203_CtrlPID3
+     000000B2  _P3_2                              3203_CtrlPID3
+     000000B2  _SwInt                             3203_CtrlPID3
+     000000B3  G$INT1$0$0                         3203_CtrlPID3
+     000000B3  G$P3_3$0$0                         3203_CtrlPID3
+     000000B3  _INT1                              3203_CtrlPID3
+     000000B3  _P3_3                              3203_CtrlPID3
+     000000B4  G$DC$0$0                           3203_CtrlPID3
+     000000B4  G$P3_4$0$0                         3203_CtrlPID3
+     000000B4  G$T0$0$0                           3203_CtrlPID3
+     000000B4  G$adcCk$0$0                        3203_CtrlPID3
+     000000B4  _DC                                3203_CtrlPID3
+     000000B4  _P3_4                              3203_CtrlPID3
+     000000B4  _T0                                3203_CtrlPID3
+     000000B4  _adcCk                             3203_CtrlPID3
+     000000B5  G$P3_5$0$0                         3203_CtrlPID3
+     000000B5  G$RW$0$0                           3203_CtrlPID3
+     000000B5  G$T1$0$0                           3203_CtrlPID3
+     000000B5  G$adcDt$0$0                        3203_CtrlPID3
+     000000B5  _P3_5                              3203_CtrlPID3
+     000000B5  _RW                                3203_CtrlPID3
+     000000B5  _T1                                3203_CtrlPID3
+     000000B5  _adcDt                             3203_CtrlPID3
+     000000B6  G$P3_6$0$0                         3203_CtrlPID3
+     000000B6  G$WR$0$0                           3203_CtrlPID3
+     000000B6  _P3_6                              3203_CtrlPID3
+     000000B6  _WR                                3203_CtrlPID3
+     000000B7  G$P3_7$0$0                         3203_CtrlPID3
+     000000B7  G$RD$0$0                           3203_CtrlPID3
+     000000B7  _P3_7                              3203_CtrlPID3
+     000000B7  _RD                                3203_CtrlPID3
+     000000B8  G$IP$0$0                           3203_CtrlPID3
+     000000B8  G$PX0$0$0                          3203_CtrlPID3
+     000000B8  _IP                                3203_CtrlPID3
+     000000B8  _PX0                               3203_CtrlPID3
+     000000B9  G$PT0$0$0                          3203_CtrlPID3
+     000000B9  _PT0                               3203_CtrlPID3
+     000000BA  G$PX1$0$0                          3203_CtrlPID3
+     000000BA  _PX1                               3203_CtrlPID3
+     000000BB  G$PT1$0$0                          3203_CtrlPID3
+     000000BB  _PT1                               3203_CtrlPID3
+     000000BC  G$PS$0$0                           3203_CtrlPID3
+     000000BC  _PS                                3203_CtrlPID3
+     000000D0  G$P$0$0                            3203_CtrlPID3
+     000000D0  G$PSW$0$0                          3203_CtrlPID3
+     000000D0  _P                                 3203_CtrlPID3
+     000000D0  _PSW                               3203_CtrlPID3
+     000000D1  G$F1$0$0                           3203_CtrlPID3
+     000000D1  _F1                                3203_CtrlPID3
+     000000D2  G$OV$0$0                           3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D2  _OV                                3203_CtrlPID3
+     000000D3  G$RS0$0$0                          3203_CtrlPID3
+     000000D3  _RS0                               3203_CtrlPID3
+     000000D4  G$RS1$0$0                          3203_CtrlPID3
+     000000D4  _RS1                               3203_CtrlPID3
+     000000D5  G$F0$0$0                           3203_CtrlPID3
+     000000D5  _F0                                3203_CtrlPID3
+     000000D6  G$AC$0$0                           3203_CtrlPID3
+     000000D6  _AC                                3203_CtrlPID3
+     000000D7  G$CY$0$0                           3203_CtrlPID3
+     000000D7  _CY                                3203_CtrlPID3
+     000000E0  G$ACC$0$0                          3203_CtrlPID3
+     000000E0  _ACC                               3203_CtrlPID3
+     000000F0  G$B$0$0                            3203_CtrlPID3
+     000000F0  _B                                 3203_CtrlPID3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000002 =           2. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    0000005A =          90. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000022  G$S1$0$0                           3203_CtrlPID3
+     00000022  _S1                                3203_CtrlPID3
+     00000023  G$S2$0$0                           3203_CtrlPID3
+     00000023  _S2                                3203_CtrlPID3
+     00000024  G$cont$0$0                         3203_CtrlPID3
+     00000024  _cont                              3203_CtrlPID3
+     00000025  G$disp1$0$0                        3203_CtrlPID3
+     00000025  _disp1                             3203_CtrlPID3
+     00000026  G$disp2$0$0                        3203_CtrlPID3
+     00000026  _disp2                             3203_CtrlPID3
+     00000027  G$cnt100$0$0                       3203_CtrlPID3
+     00000027  _cnt100                            3203_CtrlPID3
+     00000028  G$cnt200$0$0                       3203_CtrlPID3
+     00000028  _cnt200                            3203_CtrlPID3
+     00000029  G$x50us$0$0                        3203_CtrlPID3
+     00000029  _x50us                             3203_CtrlPID3
+     0000002A  G$freq$0$0                         3203_CtrlPID3
+     0000002A  _freq                              3203_CtrlPID3
+     0000002B  G$RxByte$0$0                       3203_CtrlPID3
+     0000002B  _RxByte                            3203_CtrlPID3
+     0000002C  G$TxByte$0$0                       3203_CtrlPID3
+     0000002C  _TxByte                            3203_CtrlPID3
+     0000002D  G$rRxB$0$0                         3203_CtrlPID3
+     0000002D  _rRxB                              3203_CtrlPID3
+     0000002E  G$wRxB$0$0                         3203_CtrlPID3
+     0000002E  _wRxB                              3203_CtrlPID3
+     0000002F  G$rTxB$0$0                         3203_CtrlPID3
+     0000002F  _rTxB                              3203_CtrlPID3
+     00000030  G$wTxB$0$0                         3203_CtrlPID3
+     00000030  _wTxB                              3203_CtrlPID3
+     00000031  G$RxB$0$0                          3203_CtrlPID3
+     00000031  _RxB                               3203_CtrlPID3
+     00000041  G$TxB$0$0                          3203_CtrlPID3
+     00000041  _TxB                               3203_CtrlPID3
+     00000051  G$algs$0$0                         3203_CtrlPID3
+     00000051  _algs                              3203_CtrlPID3
+     00000056  L3203_CtrlPID3.char2LCD$val$1$12   3203_CtrlPID3
+     00000056  _char2LCD_PARM_2                   3203_CtrlPID3
+     00000057  L3203_CtrlPID3.char2LCD$dot$1$12   3203_CtrlPID3
+     00000057  _char2LCD_PARM_3                   3203_CtrlPID3
+     00000058  L3203_CtrlPID3.algs2ser$asc0$1$2   3203_CtrlPID3
+     00000058  _algs2ser_PARM_2                   3203_CtrlPID3
+     0000005A  L3203_CtrlPID3.algs2ser$dot$1$27   3203_CtrlPID3
+     0000005A  _algs2ser_PARM_3                   3203_CtrlPID3
+     0000005B  L3203_CtrlPID3.char2Ser$val$1$35   3203_CtrlPID3
+     0000005B  _char2Ser_PARM_2                   3203_CtrlPID3
+     0000005C  L3203_CtrlPID3.char2Ser$dot$1$35   3203_CtrlPID3
+     0000005C  _char2Ser_PARM_3                   3203_CtrlPID3
+     0000005D  L3203_CtrlPID3.int2Ser$val$1$37    3203_CtrlPID3
+     0000005D  _int2Ser_PARM_2                    3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    0000005A =          90. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000005F  L3203_CtrlPID3.int2Ser$dot$1$37    3203_CtrlPID3
+     0000005F  _int2Ser_PARM_3                    3203_CtrlPID3
+     00000060  G$pid$0$0                          3203_CtrlPID3
+     00000060  _pid                               3203_CtrlPID3
+     00000063  G$pwm$0$0                          3203_CtrlPID3
+     00000063  _pwm                               3203_CtrlPID3
+     00000064  L3203_CtrlPID3.main$setup$1$47     3203_CtrlPID3
+     00000065  L3203_CtrlPID3.main$tempC$1$47     3203_CtrlPID3
+     00000066  L3203_CtrlPID3.main$errAt$1$47     3203_CtrlPID3
+     00000067  L3203_CtrlPID3.main$erAnt$1$47     3203_CtrlPID3
+     00000068  L3203_CtrlPID3.main$ctrlAt$1$47    3203_CtrlPID3
+     0000006A  L3203_CtrlPID3.main$P$1$47         3203_CtrlPID3
+     0000006C  L3203_CtrlPID3.main$I$1$47         3203_CtrlPID3
+     0000006E  L3203_CtrlPID3.main$tempo$1$47     3203_CtrlPID3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000008    00000002 =           2. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  __divsint_PARM_2                   _divuint
+     00000008  __divuint_PARM_2                   _divuint
+     00000008  __modsint_PARM_2                   _moduint
+     00000008  __moduint_PARM_2                   _moduint
+     00000008  __mulint_PARM_2                    _mulint
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                000000B8    00000048 =          72. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B8  __start__stack                     3203_CtrlPID3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000029 =          41. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$3203_CtrlPID3$629                3203_CtrlPID3
+C:   00000003  A$3203_CtrlPID3$630                3203_CtrlPID3
+C:   0000000B  A$3203_CtrlPID3$632                3203_CtrlPID3
+C:   00000013  A$3203_CtrlPID3$634                3203_CtrlPID3
+C:   0000001B  A$3203_CtrlPID3$636                3203_CtrlPID3
+C:   00000023  A$3203_CtrlPID3$638                3203_CtrlPID3
+C:   00000026  A$3203_CtrlPID3$737                3203_CtrlPID3
+C:   00000026  __sdcc_program_startup             3203_CtrlPID3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000029    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000029  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             0000002C    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000036    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000036  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000058    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000058  __mcs51_genRAMCLEAR                
+C:   0000005E  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00000082    00000046 =          70. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000082  A$3203_CtrlPID3$654                3203_CtrlPID3
+C:   00000082  C$uRTOS_2.21.h$38$1$47             3203_CtrlPID3
+C:   00000085  A$3203_CtrlPID3$657                3203_CtrlPID3
+C:   00000085  C$uRTOS_2.21.h$39$1$47             3203_CtrlPID3
+C:   00000088  A$3203_CtrlPID3$660                3203_CtrlPID3
+C:   00000088  C$uRTOS_2.21.h$40$1$47             3203_CtrlPID3
+C:   0000008B  A$3203_CtrlPID3$663                3203_CtrlPID3
+C:   0000008B  C$uRTOS_2.21.h$41$1$47             3203_CtrlPID3
+C:   0000008E  A$3203_CtrlPID3$666                3203_CtrlPID3
+C:   0000008E  C$uRTOS_2.21.h$42$1$47             3203_CtrlPID3
+C:   00000091  A$3203_CtrlPID3$669                3203_CtrlPID3
+C:   00000091  C$uRTOS_2.21.h$43$1$47             3203_CtrlPID3
+C:   00000094  A$3203_CtrlPID3$672                3203_CtrlPID3
+C:   00000094  C$uRTOS_2.21.h$44$1$47             3203_CtrlPID3
+C:   00000097  A$3203_CtrlPID3$675                3203_CtrlPID3
+C:   00000097  C$uRTOS_2.21.h$46$1$47             3203_CtrlPID3
+C:   0000009A  A$3203_CtrlPID3$678                3203_CtrlPID3
+C:   0000009A  C$uRTOS_2.21.h$49$1$47             3203_CtrlPID3
+C:   0000009D  A$3203_CtrlPID3$681                3203_CtrlPID3
+C:   0000009D  C$uRTOS_2.21.h$50$1$47             3203_CtrlPID3
+C:   000000A0  A$3203_CtrlPID3$684                3203_CtrlPID3
+C:   000000A0  C$uRTOS_2.21.h$51$1$47             3203_CtrlPID3
+C:   000000A3  A$3203_CtrlPID3$687                3203_CtrlPID3
+C:   000000A3  C$uRTOS_2.21.h$52$1$47             3203_CtrlPID3
+C:   000000A6  A$3203_CtrlPID3$690                3203_CtrlPID3
+C:   000000A6  C$3203_CtrlPID3.c$10$1$47          3203_CtrlPID3
+C:   000000A9  A$3203_CtrlPID3$691                3203_CtrlPID3
+C:   000000AC  A$3203_CtrlPID3$692                3203_CtrlPID3
+C:   000000AF  A$3203_CtrlPID3$695                3203_CtrlPID3
+C:   000000AF  C$3203_CtrlPID3.c$11$1$47          3203_CtrlPID3
+C:   000000B2  A$3203_CtrlPID3$698                3203_CtrlPID3
+C:   000000B2  C$uRTOS_2.21.h$27$1$47             3203_CtrlPID3
+C:   000000B4  A$3203_CtrlPID3$701                3203_CtrlPID3
+C:   000000B4  C$uRTOS_2.21.h$28$1$47             3203_CtrlPID3
+C:   000000B6  A$3203_CtrlPID3$704                3203_CtrlPID3
+C:   000000B6  C$uRTOS_2.21.h$29$1$47             3203_CtrlPID3
+C:   000000B8  A$3203_CtrlPID3$707                3203_CtrlPID3
+C:   000000B8  C$uRTOS_2.21.h$30$1$47             3203_CtrlPID3
+C:   000000BA  A$3203_CtrlPID3$710                3203_CtrlPID3
+C:   000000BA  C$uRTOS_2.21.h$31$1$47             3203_CtrlPID3
+C:   000000BC  A$3203_CtrlPID3$713                3203_CtrlPID3
+C:   000000BC  C$uRTOS_2.21.h$32$1$47             3203_CtrlPID3
+C:   000000BE  A$3203_CtrlPID3$716                3203_CtrlPID3
+C:   000000BE  C$uRTOS_2.21.h$33$1$47             3203_CtrlPID3
+C:   000000C0  A$3203_CtrlPID3$719                3203_CtrlPID3
+C:   000000C0  C$uRTOS_2.21.h$34$1$47             3203_CtrlPID3
+C:   000000C2  A$3203_CtrlPID3$722                3203_CtrlPID3
+C:   000000C2  C$uRTOS_2.21.h$35$1$47             3203_CtrlPID3
+C:   000000C4  A$3203_CtrlPID3$725                3203_CtrlPID3
+C:   000000C4  C$uRTOS_2.21.h$37$1$47             3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00000082    00000046 =          70. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000C6  A$3203_CtrlPID3$728                3203_CtrlPID3
+C:   000000C6  C$uRTOS_2.21.h$20$1$47             3203_CtrlPID3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000C8    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000C8  A$3203_CtrlPID3$730                3203_CtrlPID3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000CB  A$3203_CtrlPID3$761                3203_CtrlPID3
+C:   000000CB  C$uRTOS_2.21.h$76$0$0              3203_CtrlPID3
+C:   000000CB  G$ext_0$0$0                        3203_CtrlPID3
+C:   000000CB  _ext_0                             3203_CtrlPID3
+C:   000000CD  A$3203_CtrlPID3$762                3203_CtrlPID3
+C:   000000CF  A$3203_CtrlPID3$765                3203_CtrlPID3
+C:   000000CF  C$uRTOS_2.21.h$77$1$2              3203_CtrlPID3
+C:   000000D1  A$3203_CtrlPID3$768                3203_CtrlPID3
+C:   000000D1  C$uRTOS_2.21.h$78$1$2              3203_CtrlPID3
+C:   000000D4  A$3203_CtrlPID3$771                3203_CtrlPID3
+C:   000000D4  C$uRTOS_2.21.h$79$2$3              3203_CtrlPID3
+C:   000000D6  A$3203_CtrlPID3$772                3203_CtrlPID3
+C:   000000D8  A$3203_CtrlPID3$773                3203_CtrlPID3
+C:   000000DA  A$3203_CtrlPID3$774                3203_CtrlPID3
+C:   000000DC  A$3203_CtrlPID3$775                3203_CtrlPID3
+C:   000000DE  A$3203_CtrlPID3$779                3203_CtrlPID3
+C:   000000DE  C$uRTOS_2.21.h$82$2$4              3203_CtrlPID3
+C:   000000E0  A$3203_CtrlPID3$780                3203_CtrlPID3
+C:   000000E2  A$3203_CtrlPID3$781                3203_CtrlPID3
+C:   000000E4  A$3203_CtrlPID3$782                3203_CtrlPID3
+C:   000000E6  A$3203_CtrlPID3$784                3203_CtrlPID3
+C:   000000E8  A$3203_CtrlPID3$785                3203_CtrlPID3
+C:   000000EA  A$3203_CtrlPID3$788                3203_CtrlPID3
+C:   000000EA  C$uRTOS_2.21.h$84$1$2              3203_CtrlPID3
+C:   000000EA  XG$ext_0$0$0                       3203_CtrlPID3
+C:   000000EB  A$3203_CtrlPID3$806                3203_CtrlPID3
+C:   000000EB  C$uRTOS_2.21.h$129$1$6             3203_CtrlPID3
+C:   000000EB  C$uRTOS_2.21.h$89$1$2              3203_CtrlPID3
+C:   000000EB  G$timer_0$0$0                      3203_CtrlPID3
+C:   000000EB  _timer_0                           3203_CtrlPID3
+C:   000000ED  A$3203_CtrlPID3$807                3203_CtrlPID3
+C:   000000EF  A$3203_CtrlPID3$808                3203_CtrlPID3
+C:   000000F2  A$3203_CtrlPID3$809                3203_CtrlPID3
+C:   000000F5  A$3203_CtrlPID3$810                3203_CtrlPID3
+C:   000000F8  A$3203_CtrlPID3$812                3203_CtrlPID3
+C:   000000FB  A$3203_CtrlPID3$813                3203_CtrlPID3
+C:   000000FD  A$3203_CtrlPID3$815                3203_CtrlPID3
+C:   00000100  A$3203_CtrlPID3$816                3203_CtrlPID3
+C:   00000103  A$3203_CtrlPID3$817                3203_CtrlPID3
+C:   00000106  A$3203_CtrlPID3$818                3203_CtrlPID3
+C:   00000109  A$3203_CtrlPID3$819                3203_CtrlPID3
+C:   0000010B  A$3203_CtrlPID3$821                3203_CtrlPID3
+C:   0000010E  A$3203_CtrlPID3$822                3203_CtrlPID3
+C:   00000110  A$3203_CtrlPID3$823                3203_CtrlPID3
+C:   00000113  A$3203_CtrlPID3$824                3203_CtrlPID3
+C:   00000115  A$3203_CtrlPID3$826                3203_CtrlPID3
+C:   00000118  A$3203_CtrlPID3$828                3203_CtrlPID3
+C:   0000011A  A$3203_CtrlPID3$829                3203_CtrlPID3
+C:   0000011D  A$3203_CtrlPID3$830                3203_CtrlPID3
+C:   00000120  A$3203_CtrlPID3$831                3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000123  A$3203_CtrlPID3$833                3203_CtrlPID3
+C:   00000125  A$3203_CtrlPID3$834                3203_CtrlPID3
+C:   00000127  A$3203_CtrlPID3$835                3203_CtrlPID3
+C:   00000129  A$3203_CtrlPID3$837                3203_CtrlPID3
+C:   0000012B  A$3203_CtrlPID3$838                3203_CtrlPID3
+C:   0000012E  A$3203_CtrlPID3$839                3203_CtrlPID3
+C:   00000131  A$3203_CtrlPID3$840                3203_CtrlPID3
+C:   00000134  A$3203_CtrlPID3$842                3203_CtrlPID3
+C:   00000136  A$3203_CtrlPID3$843                3203_CtrlPID3
+C:   00000138  A$3203_CtrlPID3$846                3203_CtrlPID3
+C:   0000013A  A$3203_CtrlPID3$847                3203_CtrlPID3
+C:   0000013D  A$3203_CtrlPID3$848                3203_CtrlPID3
+C:   0000013F  A$3203_CtrlPID3$850                3203_CtrlPID3
+C:   00000142  A$3203_CtrlPID3$852                3203_CtrlPID3
+C:   00000144  A$3203_CtrlPID3$853                3203_CtrlPID3
+C:   00000146  A$3203_CtrlPID3$854                3203_CtrlPID3
+C:   00000147  A$3203_CtrlPID3$871                3203_CtrlPID3
+C:   00000147  C$uRTOS_2.21.h$130$1$6             3203_CtrlPID3
+C:   00000147  C$uRTOS_2.21.h$134$1$6             3203_CtrlPID3
+C:   00000147  C$uRTOS_2.21.h$148$1$7             3203_CtrlPID3
+C:   00000147  G$delay50$0$0                      3203_CtrlPID3
+C:   00000147  XG$timer_0$0$0                     3203_CtrlPID3
+C:   00000147  _delay50                           3203_CtrlPID3
+C:   00000149  A$3203_CtrlPID3$872                3203_CtrlPID3
+C:   0000014B  A$3203_CtrlPID3$873                3203_CtrlPID3
+C:   0000014D  A$3203_CtrlPID3$874                3203_CtrlPID3
+C:   0000014E  A$3203_CtrlPID3$875                3203_CtrlPID3
+C:   00000150  A$3203_CtrlPID3$876                3203_CtrlPID3
+C:   00000152  A$3203_CtrlPID3$877                3203_CtrlPID3
+C:   00000154  A$3203_CtrlPID3$879                3203_CtrlPID3
+C:   00000155  A$3203_CtrlPID3$881                3203_CtrlPID3
+C:   00000158  A$3203_CtrlPID3$882                3203_CtrlPID3
+C:   0000015A  A$3203_CtrlPID3$883                3203_CtrlPID3
+C:   0000015C  A$3203_CtrlPID3$884                3203_CtrlPID3
+C:   0000015D  A$3203_CtrlPID3$900                3203_CtrlPID3
+C:   0000015D  C$uRTOS_2.21.h$149$1$7             3203_CtrlPID3
+C:   0000015D  C$uRTOS_2.21.h$153$1$7             3203_CtrlPID3
+C:   0000015D  G$wrLCD8$0$0                       3203_CtrlPID3
+C:   0000015D  XG$delay50$0$0                     3203_CtrlPID3
+C:   0000015D  _wrLCD8                            3203_CtrlPID3
+C:   0000015F  A$3203_CtrlPID3$903                3203_CtrlPID3
+C:   0000015F  C$uRTOS_2.21.h$154$1$9             3203_CtrlPID3
+C:   00000161  A$3203_CtrlPID3$904                3203_CtrlPID3
+C:   00000163  A$3203_CtrlPID3$905                3203_CtrlPID3
+C:   00000165  A$3203_CtrlPID3$908                3203_CtrlPID3
+C:   00000165  C$uRTOS_2.21.h$155$1$9             3203_CtrlPID3
+C:   00000166  A$3203_CtrlPID3$909                3203_CtrlPID3
+C:   00000168  A$3203_CtrlPID3$910                3203_CtrlPID3
+C:   0000016A  A$3203_CtrlPID3$911                3203_CtrlPID3
+C:   0000016C  A$3203_CtrlPID3$912                3203_CtrlPID3
+C:   0000016D  A$3203_CtrlPID3$913                3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000016F  A$3203_CtrlPID3$914                3203_CtrlPID3
+C:   00000171  A$3203_CtrlPID3$915                3203_CtrlPID3
+C:   00000173  A$3203_CtrlPID3$918                3203_CtrlPID3
+C:   00000173  C$uRTOS_2.21.h$156$1$9             3203_CtrlPID3
+C:   00000174  A$3203_CtrlPID3$919                3203_CtrlPID3
+C:   00000176  A$3203_CtrlPID3$920                3203_CtrlPID3
+C:   00000178  A$3203_CtrlPID3$921                3203_CtrlPID3
+C:   0000017A  A$3203_CtrlPID3$922                3203_CtrlPID3
+C:   0000017B  A$3203_CtrlPID3$923                3203_CtrlPID3
+C:   0000017C  A$3203_CtrlPID3$924                3203_CtrlPID3
+C:   0000017E  A$3203_CtrlPID3$925                3203_CtrlPID3
+C:   00000180  A$3203_CtrlPID3$928                3203_CtrlPID3
+C:   00000180  C$uRTOS_2.21.h$157$1$9             3203_CtrlPID3
+C:   00000183  A$3203_CtrlPID3$929                3203_CtrlPID3
+C:   00000186  A$3203_CtrlPID3$932                3203_CtrlPID3
+C:   00000186  C$uRTOS_2.21.h$158$1$9             3203_CtrlPID3
+C:   00000188  A$3203_CtrlPID3$935                3203_CtrlPID3
+C:   00000188  C$uRTOS_2.21.h$159$1$9             3203_CtrlPID3
+C:   0000018B  A$3203_CtrlPID3$936                3203_CtrlPID3
+C:   0000018E  A$3203_CtrlPID3$939                3203_CtrlPID3
+C:   0000018E  C$uRTOS_2.21.h$160$1$9             3203_CtrlPID3
+C:   00000190  A$3203_CtrlPID3$942                3203_CtrlPID3
+C:   00000190  C$uRTOS_2.21.h$161$1$9             3203_CtrlPID3
+C:   00000193  A$3203_CtrlPID3$943                3203_CtrlPID3
+C:   00000196  A$3203_CtrlPID3$946                3203_CtrlPID3
+C:   00000196  C$uRTOS_2.21.h$162$1$9             3203_CtrlPID3
+C:   00000198  A$3203_CtrlPID3$947                3203_CtrlPID3
+C:   0000019A  A$3203_CtrlPID3$950                3203_CtrlPID3
+C:   0000019A  C$uRTOS_2.21.h$163$1$9             3203_CtrlPID3
+C:   0000019A  XG$wrLCD8$0$0                      3203_CtrlPID3
+C:   0000019B  A$3203_CtrlPID3$964                3203_CtrlPID3
+C:   0000019B  C$uRTOS_2.21.h$167$1$9             3203_CtrlPID3
+C:   0000019B  G$wrLCD4$0$0                       3203_CtrlPID3
+C:   0000019B  _wrLCD4                            3203_CtrlPID3
+C:   0000019D  A$3203_CtrlPID3$967                3203_CtrlPID3
+C:   0000019D  C$uRTOS_2.21.h$169$1$11            3203_CtrlPID3
+C:   0000019F  A$3203_CtrlPID3$968                3203_CtrlPID3
+C:   000001A0  A$3203_CtrlPID3$969                3203_CtrlPID3
+C:   000001A1  A$3203_CtrlPID3$972                3203_CtrlPID3
+C:   000001A1  C$uRTOS_2.21.h$170$1$11            3203_CtrlPID3
+C:   000001A3  A$3203_CtrlPID3$973                3203_CtrlPID3
+C:   000001A5  A$3203_CtrlPID3$974                3203_CtrlPID3
+C:   000001A7  A$3203_CtrlPID3$975                3203_CtrlPID3
+C:   000001A9  A$3203_CtrlPID3$976                3203_CtrlPID3
+C:   000001AC  A$3203_CtrlPID3$977                3203_CtrlPID3
+C:   000001AE  A$3203_CtrlPID3$980                3203_CtrlPID3
+C:   000001AE  C$uRTOS_2.21.h$171$1$11            3203_CtrlPID3
+C:   000001AF  A$3203_CtrlPID3$981                3203_CtrlPID3
+C:   000001B0  A$3203_CtrlPID3$982                3203_CtrlPID3
+C:   000001B2  A$3203_CtrlPID3$983                3203_CtrlPID3
+C:   000001B3  A$3203_CtrlPID3$984                3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001B5  A$3203_CtrlPID3$985                3203_CtrlPID3
+C:   000001B6  A$3203_CtrlPID3$986                3203_CtrlPID3
+C:   000001B7  A$3203_CtrlPID3$989                3203_CtrlPID3
+C:   000001B7  C$uRTOS_2.21.h$172$1$11            3203_CtrlPID3
+C:   000001B9  A$3203_CtrlPID3$990                3203_CtrlPID3
+C:   000001BB  A$3203_CtrlPID3$991                3203_CtrlPID3
+C:   000001BD  A$3203_CtrlPID3$992                3203_CtrlPID3
+C:   000001C0  A$3203_CtrlPID3$995                3203_CtrlPID3
+C:   000001C0  C$uRTOS_2.21.h$173$1$11            3203_CtrlPID3
+C:   000001C0  XG$wrLCD4$0$0                      3203_CtrlPID3
+C:   000001C1  A$3203_CtrlPID3$1011               3203_CtrlPID3
+C:   000001C1  C$uRTOS_2.21.h$178$1$11            3203_CtrlPID3
+C:   000001C1  G$char2LCD$0$0                     3203_CtrlPID3
+C:   000001C1  _char2LCD                          3203_CtrlPID3
+C:   000001C3  A$3203_CtrlPID3$1014               3203_CtrlPID3
+C:   000001C3  C$uRTOS_2.21.h$180$1$13            3203_CtrlPID3
+C:   000001C5  A$3203_CtrlPID3$1015               3203_CtrlPID3
+C:   000001C7  A$3203_CtrlPID3$1016               3203_CtrlPID3
+C:   000001CA  A$3203_CtrlPID3$1019               3203_CtrlPID3
+C:   000001CA  C$uRTOS_2.21.h$181$1$13            3203_CtrlPID3
+C:   000001CD  A$3203_CtrlPID3$1020               3203_CtrlPID3
+C:   000001CF  A$3203_CtrlPID3$1021               3203_CtrlPID3
+C:   000001D0  A$3203_CtrlPID3$1022               3203_CtrlPID3
+C:   000001D2  A$3203_CtrlPID3$1023               3203_CtrlPID3
+C:   000001D4  A$3203_CtrlPID3$1026               3203_CtrlPID3
+C:   000001D4  C$uRTOS_2.21.h$182$1$13            3203_CtrlPID3
+C:   000001D7  A$3203_CtrlPID3$1027               3203_CtrlPID3
+C:   000001D9  A$3203_CtrlPID3$1028               3203_CtrlPID3
+C:   000001DA  A$3203_CtrlPID3$1029               3203_CtrlPID3
+C:   000001DD  A$3203_CtrlPID3$1032               3203_CtrlPID3
+C:   000001DD  C$uRTOS_2.21.h$183$1$13            3203_CtrlPID3
+C:   000001E0  A$3203_CtrlPID3$1033               3203_CtrlPID3
+C:   000001E2  A$3203_CtrlPID3$1034               3203_CtrlPID3
+C:   000001E3  A$3203_CtrlPID3$1035               3203_CtrlPID3
+C:   000001E5  A$3203_CtrlPID3$1036               3203_CtrlPID3
+C:   000001E7  A$3203_CtrlPID3$1039               3203_CtrlPID3
+C:   000001E7  C$uRTOS_2.21.h$184$1$13            3203_CtrlPID3
+C:   000001EA  A$3203_CtrlPID3$1040               3203_CtrlPID3
+C:   000001EC  A$3203_CtrlPID3$1041               3203_CtrlPID3
+C:   000001ED  A$3203_CtrlPID3$1042               3203_CtrlPID3
+C:   000001EF  A$3203_CtrlPID3$1043               3203_CtrlPID3
+C:   000001F1  A$3203_CtrlPID3$1044               3203_CtrlPID3
+C:   000001F3  A$3203_CtrlPID3$1047               3203_CtrlPID3
+C:   000001F5  A$3203_CtrlPID3$1051               3203_CtrlPID3
+C:   000001F5  C$uRTOS_2.21.h$186$2$14            3203_CtrlPID3
+C:   000001F6  A$3203_CtrlPID3$1052               3203_CtrlPID3
+C:   000001F9  A$3203_CtrlPID3$1053               3203_CtrlPID3
+C:   000001FB  A$3203_CtrlPID3$1054               3203_CtrlPID3
+C:   000001FE  A$3203_CtrlPID3$1055               3203_CtrlPID3
+C:   00000200  A$3203_CtrlPID3$1056               3203_CtrlPID3
+C:   00000203  A$3203_CtrlPID3$1057               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000205  A$3203_CtrlPID3$1061               3203_CtrlPID3
+C:   00000205  C$uRTOS_2.21.h$187$2$14            3203_CtrlPID3
+C:   00000206  A$3203_CtrlPID3$1062               3203_CtrlPID3
+C:   00000208  A$3203_CtrlPID3$1063               3203_CtrlPID3
+C:   00000209  A$3203_CtrlPID3$1064               3203_CtrlPID3
+C:   0000020B  A$3203_CtrlPID3$1065               3203_CtrlPID3
+C:   0000020D  A$3203_CtrlPID3$1066               3203_CtrlPID3
+C:   0000020F  A$3203_CtrlPID3$1067               3203_CtrlPID3
+C:   00000212  A$3203_CtrlPID3$1068               3203_CtrlPID3
+C:   00000214  A$3203_CtrlPID3$1071               3203_CtrlPID3
+C:   00000214  C$uRTOS_2.21.h$185$1$13            3203_CtrlPID3
+C:   00000215  A$3203_CtrlPID3$1072               3203_CtrlPID3
+C:   00000218  A$3203_CtrlPID3$1074               3203_CtrlPID3
+C:   0000021A  A$3203_CtrlPID3$1077               3203_CtrlPID3
+C:   0000021A  C$uRTOS_2.21.h$189$1$13            3203_CtrlPID3
+C:   0000021A  XG$char2LCD$0$0                    3203_CtrlPID3
+C:   0000021B  A$3203_CtrlPID3$1094               3203_CtrlPID3
+C:   0000021B  C$uRTOS_2.21.h$193$1$13            3203_CtrlPID3
+C:   0000021B  C$uRTOS_2.21.h$197$1$15            3203_CtrlPID3
+C:   0000021B  G$iniLCD4$0$0                      3203_CtrlPID3
+C:   0000021B  _iniLCD4                           3203_CtrlPID3
+C:   0000021D  A$3203_CtrlPID3$1097               3203_CtrlPID3
+C:   0000021D  C$uRTOS_2.21.h$198$1$15            3203_CtrlPID3
+C:   0000021F  A$3203_CtrlPID3$1098               3203_CtrlPID3
+C:   00000222  A$3203_CtrlPID3$1104               3203_CtrlPID3
+C:   00000222  C$uRTOS_2.21.h$199$1$15            3203_CtrlPID3
+C:   00000222  C$uRTOS_2.21.h$200$1$15            3203_CtrlPID3
+C:   00000225  A$3203_CtrlPID3$1105               3203_CtrlPID3
+C:   00000227  A$3203_CtrlPID3$1109               3203_CtrlPID3
+C:   00000227  C$uRTOS_2.21.h$201$1$15            3203_CtrlPID3
+C:   00000229  A$3203_CtrlPID3$1110               3203_CtrlPID3
+C:   0000022C  A$3203_CtrlPID3$1111               3203_CtrlPID3
+C:   0000022F  A$3203_CtrlPID3$1115               3203_CtrlPID3
+C:   0000022F  C$uRTOS_2.21.h$202$1$15            3203_CtrlPID3
+C:   00000232  A$3203_CtrlPID3$1117               3203_CtrlPID3
+C:   00000235  A$3203_CtrlPID3$1120               3203_CtrlPID3
+C:   00000235  C$uRTOS_2.21.h$203$1$15            3203_CtrlPID3
+C:   00000237  A$3203_CtrlPID3$1121               3203_CtrlPID3
+C:   0000023A  A$3203_CtrlPID3$1122               3203_CtrlPID3
+C:   0000023D  A$3203_CtrlPID3$1126               3203_CtrlPID3
+C:   0000023D  C$uRTOS_2.21.h$204$1$15            3203_CtrlPID3
+C:   00000240  A$3203_CtrlPID3$1128               3203_CtrlPID3
+C:   00000243  A$3203_CtrlPID3$1131               3203_CtrlPID3
+C:   00000243  C$uRTOS_2.21.h$205$1$15            3203_CtrlPID3
+C:   00000245  A$3203_CtrlPID3$1132               3203_CtrlPID3
+C:   00000248  A$3203_CtrlPID3$1133               3203_CtrlPID3
+C:   0000024B  A$3203_CtrlPID3$1136               3203_CtrlPID3
+C:   0000024B  C$uRTOS_2.21.h$206$1$15            3203_CtrlPID3
+C:   0000024E  A$3203_CtrlPID3$1137               3203_CtrlPID3
+C:   00000251  A$3203_CtrlPID3$1140               3203_CtrlPID3
+C:   00000251  C$uRTOS_2.21.h$207$1$15            3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000253  A$3203_CtrlPID3$1141               3203_CtrlPID3
+C:   00000256  A$3203_CtrlPID3$1142               3203_CtrlPID3
+C:   00000259  A$3203_CtrlPID3$1145               3203_CtrlPID3
+C:   00000259  C$uRTOS_2.21.h$208$1$15            3203_CtrlPID3
+C:   0000025C  A$3203_CtrlPID3$1146               3203_CtrlPID3
+C:   0000025F  A$3203_CtrlPID3$1149               3203_CtrlPID3
+C:   00000261  A$3203_CtrlPID3$1153               3203_CtrlPID3
+C:   00000261  C$uRTOS_2.21.h$210$2$16            3203_CtrlPID3
+C:   00000262  A$3203_CtrlPID3$1154               3203_CtrlPID3
+C:   00000265  A$3203_CtrlPID3$1155               3203_CtrlPID3
+C:   00000266  A$3203_CtrlPID3$1156               3203_CtrlPID3
+C:   00000267  A$3203_CtrlPID3$1159               3203_CtrlPID3
+C:   00000267  C$uRTOS_2.21.h$211$2$16            3203_CtrlPID3
+C:   00000269  A$3203_CtrlPID3$1160               3203_CtrlPID3
+C:   0000026B  A$3203_CtrlPID3$1161               3203_CtrlPID3
+C:   0000026D  A$3203_CtrlPID3$1162               3203_CtrlPID3
+C:   00000270  A$3203_CtrlPID3$1163               3203_CtrlPID3
+C:   00000272  A$3203_CtrlPID3$1167               3203_CtrlPID3
+C:   00000272  C$uRTOS_2.21.h$212$2$16            3203_CtrlPID3
+C:   00000275  A$3203_CtrlPID3$1171               3203_CtrlPID3
+C:   00000275  C$uRTOS_2.21.h$213$2$16            3203_CtrlPID3
+C:   00000278  A$3203_CtrlPID3$1174               3203_CtrlPID3
+C:   00000278  C$uRTOS_2.21.h$209$1$15            3203_CtrlPID3
+C:   00000279  A$3203_CtrlPID3$1175               3203_CtrlPID3
+C:   0000027C  A$3203_CtrlPID3$1177               3203_CtrlPID3
+C:   0000027E  A$3203_CtrlPID3$1180               3203_CtrlPID3
+C:   0000027E  C$uRTOS_2.21.h$215$1$15            3203_CtrlPID3
+C:   0000027E  XG$iniLCD4$0$0                     3203_CtrlPID3
+C:   0000027F  A$3203_CtrlPID3$1193               3203_CtrlPID3
+C:   0000027F  C$uRTOS_2.21.h$219$1$15            3203_CtrlPID3
+C:   0000027F  C$uRTOS_2.21.h$220$1$18            3203_CtrlPID3
+C:   0000027F  G$inic$0$0                         3203_CtrlPID3
+C:   0000027F  _inic                              3203_CtrlPID3
+C:   00000281  A$3203_CtrlPID3$1196               3203_CtrlPID3
+C:   00000281  C$uRTOS_2.21.h$221$1$18            3203_CtrlPID3
+C:   00000284  A$3203_CtrlPID3$1199               3203_CtrlPID3
+C:   00000284  C$uRTOS_2.21.h$222$1$18            3203_CtrlPID3
+C:   00000287  A$3203_CtrlPID3$1202               3203_CtrlPID3
+C:   00000287  C$uRTOS_2.21.h$223$1$18            3203_CtrlPID3
+C:   0000028A  A$3203_CtrlPID3$1205               3203_CtrlPID3
+C:   0000028A  C$uRTOS_2.21.h$224$1$18            3203_CtrlPID3
+C:   0000028D  A$3203_CtrlPID3$1208               3203_CtrlPID3
+C:   0000028D  C$uRTOS_2.21.h$225$1$18            3203_CtrlPID3
+C:   00000290  A$3203_CtrlPID3$1211               3203_CtrlPID3
+C:   00000290  C$uRTOS_2.21.h$226$1$18            3203_CtrlPID3
+C:   00000293  A$3203_CtrlPID3$1214               3203_CtrlPID3
+C:   00000293  C$uRTOS_2.21.h$227$1$18            3203_CtrlPID3
+C:   00000296  A$3203_CtrlPID3$1217               3203_CtrlPID3
+C:   00000296  C$uRTOS_2.21.h$228$1$18            3203_CtrlPID3
+C:   00000299  A$3203_CtrlPID3$1220               3203_CtrlPID3
+C:   00000299  C$uRTOS_2.21.h$229$1$18            3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000029B  A$3203_CtrlPID3$1223               3203_CtrlPID3
+C:   0000029B  C$uRTOS_2.21.h$230$1$18            3203_CtrlPID3
+C:   0000029D  A$3203_CtrlPID3$1226               3203_CtrlPID3
+C:   0000029D  C$uRTOS_2.21.h$231$1$18            3203_CtrlPID3
+C:   000002A0  A$3203_CtrlPID3$1229               3203_CtrlPID3
+C:   000002A0  C$uRTOS_2.21.h$232$1$18            3203_CtrlPID3
+C:   000002A0  XG$inic$0$0                        3203_CtrlPID3
+C:   000002A1  A$3203_CtrlPID3$1243               3203_CtrlPID3
+C:   000002A1  C$convAD08.h$10$1$18               3203_CtrlPID3
+C:   000002A1  C$convAD08.h$16$1$19               3203_CtrlPID3
+C:   000002A1  G$clockAD$0$0                      3203_CtrlPID3
+C:   000002A1  _clockAD                           3203_CtrlPID3
+C:   000002A3  A$3203_CtrlPID3$1244               3203_CtrlPID3
+C:   000002A5  A$3203_CtrlPID3$1245               3203_CtrlPID3
+C:   000002A7  A$3203_CtrlPID3$1246               3203_CtrlPID3
+C:   000002A8  A$3203_CtrlPID3$1265               3203_CtrlPID3
+C:   000002A8  C$convAD08.h$17$1$19               3203_CtrlPID3
+C:   000002A8  C$convAD08.h$21$1$19               3203_CtrlPID3
+C:   000002A8  C$convAD08.h$22$1$19               3203_CtrlPID3
+C:   000002A8  G$convAD08$0$0                     3203_CtrlPID3
+C:   000002A8  XG$clockAD$0$0                     3203_CtrlPID3
+C:   000002A8  _convAD08                          3203_CtrlPID3
+C:   000002AA  A$3203_CtrlPID3$1268               3203_CtrlPID3
+C:   000002AA  C$convAD08.h$24$1$20               3203_CtrlPID3
+C:   000002AC  A$3203_CtrlPID3$1269               3203_CtrlPID3
+C:   000002AE  A$3203_CtrlPID3$1272               3203_CtrlPID3
+C:   000002AE  C$convAD08.h$25$1$20               3203_CtrlPID3
+C:   000002B0  A$3203_CtrlPID3$1275               3203_CtrlPID3
+C:   000002B0  C$convAD08.h$26$1$20               3203_CtrlPID3
+C:   000002B3  A$3203_CtrlPID3$1278               3203_CtrlPID3
+C:   000002B3  C$convAD08.h$27$1$20               3203_CtrlPID3
+C:   000002B6  A$3203_CtrlPID3$1281               3203_CtrlPID3
+C:   000002B6  C$convAD08.h$28$1$20               3203_CtrlPID3
+C:   000002B8  A$3203_CtrlPID3$1282               3203_CtrlPID3
+C:   000002BA  A$3203_CtrlPID3$1285               3203_CtrlPID3
+C:   000002BA  C$convAD08.h$29$1$20               3203_CtrlPID3
+C:   000002BD  A$3203_CtrlPID3$1288               3203_CtrlPID3
+C:   000002BD  C$convAD08.h$30$1$20               3203_CtrlPID3
+C:   000002BF  A$3203_CtrlPID3$1291               3203_CtrlPID3
+C:   000002BF  C$convAD08.h$31$1$20               3203_CtrlPID3
+C:   000002C2  A$3203_CtrlPID3$1294               3203_CtrlPID3
+C:   000002C4  A$3203_CtrlPID3$1298               3203_CtrlPID3
+C:   000002C4  C$convAD08.h$33$2$21               3203_CtrlPID3
+C:   000002C5  A$3203_CtrlPID3$1299               3203_CtrlPID3
+C:   000002C6  A$3203_CtrlPID3$1300               3203_CtrlPID3
+C:   000002C7  A$3203_CtrlPID3$1301               3203_CtrlPID3
+C:   000002C9  A$3203_CtrlPID3$1302               3203_CtrlPID3
+C:   000002CA  A$3203_CtrlPID3$1303               3203_CtrlPID3
+C:   000002CB  A$3203_CtrlPID3$1304               3203_CtrlPID3
+C:   000002CC  A$3203_CtrlPID3$1305               3203_CtrlPID3
+C:   000002CD  A$3203_CtrlPID3$1306               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002CE  A$3203_CtrlPID3$1309               3203_CtrlPID3
+C:   000002CE  C$convAD08.h$34$2$21               3203_CtrlPID3
+C:   000002D1  A$3203_CtrlPID3$1312               3203_CtrlPID3
+C:   000002D1  C$convAD08.h$32$1$20               3203_CtrlPID3
+C:   000002D3  A$3203_CtrlPID3$1315               3203_CtrlPID3
+C:   000002D5  A$3203_CtrlPID3$1319               3203_CtrlPID3
+C:   000002D5  C$convAD08.h$37$2$22               3203_CtrlPID3
+C:   000002D8  A$3203_CtrlPID3$1322               3203_CtrlPID3
+C:   000002D8  C$convAD08.h$36$1$20               3203_CtrlPID3
+C:   000002DA  A$3203_CtrlPID3$1325               3203_CtrlPID3
+C:   000002DA  C$convAD08.h$39$1$20               3203_CtrlPID3
+C:   000002DC  A$3203_CtrlPID3$1326               3203_CtrlPID3
+C:   000002DE  A$3203_CtrlPID3$1327               3203_CtrlPID3
+C:   000002E0  A$3203_CtrlPID3$1330               3203_CtrlPID3
+C:   000002E0  C$convAD08.h$40$1$20               3203_CtrlPID3
+C:   000002E2  A$3203_CtrlPID3$1333               3203_CtrlPID3
+C:   000002E2  C$convAD08.h$41$1$20               3203_CtrlPID3
+C:   000002E2  XG$convAD08$0$0                    3203_CtrlPID3
+C:   000002E3  A$3203_CtrlPID3$1348               3203_CtrlPID3
+C:   000002E3  C$serialInt_1.2.h$10$2$25          3203_CtrlPID3
+C:   000002E3  C$serialInt_1.2.h$8$1$20           3203_CtrlPID3
+C:   000002E3  C$serialInt_1.2.h$9$1$24           3203_CtrlPID3
+C:   000002E3  G$serial$0$0                       3203_CtrlPID3
+C:   000002E3  _serial                            3203_CtrlPID3
+C:   000002E6  A$3203_CtrlPID3$1349               3203_CtrlPID3
+C:   000002E8  A$3203_CtrlPID3$1353               3203_CtrlPID3
+C:   000002E8  C$serialInt_1.2.h$11$2$25          3203_CtrlPID3
+C:   000002EB  A$3203_CtrlPID3$1356               3203_CtrlPID3
+C:   000002EB  C$serialInt_1.2.h$12$2$25          3203_CtrlPID3
+C:   000002ED  A$3203_CtrlPID3$1357               3203_CtrlPID3
+C:   000002EF  A$3203_CtrlPID3$1361               3203_CtrlPID3
+C:   000002EF  C$serialInt_1.2.h$15$2$26          3203_CtrlPID3
+C:   000002F1  A$3203_CtrlPID3$1364               3203_CtrlPID3
+C:   000002F1  C$serialInt_1.2.h$16$2$26          3203_CtrlPID3
+C:   000002F3  A$3203_CtrlPID3$1368               3203_CtrlPID3
+C:   000002F3  C$serialInt_1.2.h$18$1$24          3203_CtrlPID3
+C:   000002F3  XG$serial$0$0                      3203_CtrlPID3
+C:   000002F4  A$3203_CtrlPID3$1390               3203_CtrlPID3
+C:   000002F4  C$serialInt_1.2.h$22$1$24          3203_CtrlPID3
+C:   000002F4  G$algs2ser$0$0                     3203_CtrlPID3
+C:   000002F4  _algs2ser                          3203_CtrlPID3
+C:   000002F6  A$3203_CtrlPID3$1393               3203_CtrlPID3
+C:   000002F6  C$serialInt_1.2.h$23$1$24          3203_CtrlPID3
+C:   000002F8  A$3203_CtrlPID3$1397               3203_CtrlPID3
+C:   000002F8  C$serialInt_1.2.h$24$1$28          3203_CtrlPID3
+C:   000002F9  A$3203_CtrlPID3$1398               3203_CtrlPID3
+C:   000002FA  A$3203_CtrlPID3$1399               3203_CtrlPID3
+C:   000002FB  A$3203_CtrlPID3$1400               3203_CtrlPID3
+C:   000002FD  A$3203_CtrlPID3$1404               3203_CtrlPID3
+C:   000002FD  C$serialInt_1.2.h$25$2$29          3203_CtrlPID3
+C:   00000300  A$3203_CtrlPID3$1405               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000302  A$3203_CtrlPID3$1409               3203_CtrlPID3
+C:   00000302  C$serialInt_1.2.h$26$2$29          3203_CtrlPID3
+C:   00000305  A$3203_CtrlPID3$1410               3203_CtrlPID3
+C:   00000306  A$3203_CtrlPID3$1411               3203_CtrlPID3
+C:   00000308  A$3203_CtrlPID3$1415               3203_CtrlPID3
+C:   0000030A  A$3203_CtrlPID3$1417               3203_CtrlPID3
+C:   0000030D  A$3203_CtrlPID3$1419               3203_CtrlPID3
+C:   0000030F  A$3203_CtrlPID3$1422               3203_CtrlPID3
+C:   0000030F  C$serialInt_1.2.h$29$2$30          3203_CtrlPID3
+C:   00000310  A$3203_CtrlPID3$1423               3203_CtrlPID3
+C:   00000313  A$3203_CtrlPID3$1427               3203_CtrlPID3
+C:   00000313  C$serialInt_1.2.h$30$3$31          3203_CtrlPID3
+C:   00000316  A$3203_CtrlPID3$1428               3203_CtrlPID3
+C:   00000318  A$3203_CtrlPID3$1432               3203_CtrlPID3
+C:   00000318  C$serialInt_1.2.h$31$3$31          3203_CtrlPID3
+C:   0000031B  A$3203_CtrlPID3$1436               3203_CtrlPID3
+C:   0000031B  C$serialInt_1.2.h$33$2$30          3203_CtrlPID3
+C:   0000031E  A$3203_CtrlPID3$1437               3203_CtrlPID3
+C:   00000320  A$3203_CtrlPID3$1441               3203_CtrlPID3
+C:   00000320  C$serialInt_1.2.h$34$2$30          3203_CtrlPID3
+C:   00000321  A$3203_CtrlPID3$1442               3203_CtrlPID3
+C:   00000323  A$3203_CtrlPID3$1443               3203_CtrlPID3
+C:   00000324  A$3203_CtrlPID3$1444               3203_CtrlPID3
+C:   00000326  A$3203_CtrlPID3$1447               3203_CtrlPID3
+C:   00000326  C$serialInt_1.2.h$28$1$28          3203_CtrlPID3
+C:   00000327  A$3203_CtrlPID3$1448               3203_CtrlPID3
+C:   00000329  A$3203_CtrlPID3$1452               3203_CtrlPID3
+C:   00000329  C$serialInt_1.2.h$36$1$28          3203_CtrlPID3
+C:   00000329  XG$algs2ser$0$0                    3203_CtrlPID3
+C:   0000032A  A$3203_CtrlPID3$1465               3203_CtrlPID3
+C:   0000032A  C$serialInt_1.2.h$40$1$28          3203_CtrlPID3
+C:   0000032A  G$int2ascii$0$0                    3203_CtrlPID3
+C:   0000032A  _int2ascii                         3203_CtrlPID3
+C:   0000032C  A$3203_CtrlPID3$1466               3203_CtrlPID3
+C:   0000032E  A$3203_CtrlPID3$1469               3203_CtrlPID3
+C:   0000032E  C$serialInt_1.2.h$41$1$33          3203_CtrlPID3
+C:   00000331  A$3203_CtrlPID3$1470               3203_CtrlPID3
+C:   00000334  A$3203_CtrlPID3$1473               3203_CtrlPID3
+C:   00000334  C$serialInt_1.2.h$42$1$33          3203_CtrlPID3
+C:   00000335  A$3203_CtrlPID3$1474               3203_CtrlPID3
+C:   00000337  A$3203_CtrlPID3$1475               3203_CtrlPID3
+C:   00000338  A$3203_CtrlPID3$1476               3203_CtrlPID3
+C:   0000033A  A$3203_CtrlPID3$1477               3203_CtrlPID3
+C:   0000033B  A$3203_CtrlPID3$1478               3203_CtrlPID3
+C:   0000033D  A$3203_CtrlPID3$1481               3203_CtrlPID3
+C:   0000033D  C$serialInt_1.2.h$43$1$33          3203_CtrlPID3
+C:   00000340  A$3203_CtrlPID3$1482               3203_CtrlPID3
+C:   00000343  A$3203_CtrlPID3$1483               3203_CtrlPID3
+C:   00000345  A$3203_CtrlPID3$1484               3203_CtrlPID3
+C:   00000347  A$3203_CtrlPID3$1485               3203_CtrlPID3
+C:   00000349  A$3203_CtrlPID3$1486               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000034B  A$3203_CtrlPID3$1487               3203_CtrlPID3
+C:   0000034E  A$3203_CtrlPID3$1488               3203_CtrlPID3
+C:   00000350  A$3203_CtrlPID3$1489               3203_CtrlPID3
+C:   00000352  A$3203_CtrlPID3$1490               3203_CtrlPID3
+C:   00000354  A$3203_CtrlPID3$1491               3203_CtrlPID3
+C:   00000356  A$3203_CtrlPID3$1492               3203_CtrlPID3
+C:   00000357  A$3203_CtrlPID3$1493               3203_CtrlPID3
+C:   00000359  A$3203_CtrlPID3$1496               3203_CtrlPID3
+C:   00000359  C$serialInt_1.2.h$44$1$33          3203_CtrlPID3
+C:   0000035C  A$3203_CtrlPID3$1497               3203_CtrlPID3
+C:   0000035F  A$3203_CtrlPID3$1498               3203_CtrlPID3
+C:   00000361  A$3203_CtrlPID3$1499               3203_CtrlPID3
+C:   00000363  A$3203_CtrlPID3$1500               3203_CtrlPID3
+C:   00000366  A$3203_CtrlPID3$1503               3203_CtrlPID3
+C:   00000366  C$serialInt_1.2.h$45$1$33          3203_CtrlPID3
+C:   00000368  A$3203_CtrlPID3$1504               3203_CtrlPID3
+C:   0000036A  A$3203_CtrlPID3$1505               3203_CtrlPID3
+C:   0000036D  A$3203_CtrlPID3$1506               3203_CtrlPID3
+C:   00000370  A$3203_CtrlPID3$1507               3203_CtrlPID3
+C:   00000372  A$3203_CtrlPID3$1508               3203_CtrlPID3
+C:   00000374  A$3203_CtrlPID3$1509               3203_CtrlPID3
+C:   00000377  A$3203_CtrlPID3$1510               3203_CtrlPID3
+C:   00000379  A$3203_CtrlPID3$1511               3203_CtrlPID3
+C:   0000037B  A$3203_CtrlPID3$1512               3203_CtrlPID3
+C:   0000037D  A$3203_CtrlPID3$1513               3203_CtrlPID3
+C:   0000037F  A$3203_CtrlPID3$1514               3203_CtrlPID3
+C:   00000380  A$3203_CtrlPID3$1515               3203_CtrlPID3
+C:   00000382  A$3203_CtrlPID3$1518               3203_CtrlPID3
+C:   00000382  C$serialInt_1.2.h$46$1$33          3203_CtrlPID3
+C:   00000385  A$3203_CtrlPID3$1519               3203_CtrlPID3
+C:   00000388  A$3203_CtrlPID3$1520               3203_CtrlPID3
+C:   0000038A  A$3203_CtrlPID3$1521               3203_CtrlPID3
+C:   0000038C  A$3203_CtrlPID3$1522               3203_CtrlPID3
+C:   0000038F  A$3203_CtrlPID3$1523               3203_CtrlPID3
+C:   00000391  A$3203_CtrlPID3$1524               3203_CtrlPID3
+C:   00000393  A$3203_CtrlPID3$1528               3203_CtrlPID3
+C:   00000393  C$serialInt_1.2.h$48$1$33          3203_CtrlPID3
+C:   00000396  A$3203_CtrlPID3$1529               3203_CtrlPID3
+C:   00000399  A$3203_CtrlPID3$1530               3203_CtrlPID3
+C:   0000039B  A$3203_CtrlPID3$1531               3203_CtrlPID3
+C:   0000039D  A$3203_CtrlPID3$1532               3203_CtrlPID3
+C:   0000039F  A$3203_CtrlPID3$1533               3203_CtrlPID3
+C:   000003A1  A$3203_CtrlPID3$1534               3203_CtrlPID3
+C:   000003A4  A$3203_CtrlPID3$1535               3203_CtrlPID3
+C:   000003A6  A$3203_CtrlPID3$1536               3203_CtrlPID3
+C:   000003A8  A$3203_CtrlPID3$1537               3203_CtrlPID3
+C:   000003AA  A$3203_CtrlPID3$1538               3203_CtrlPID3
+C:   000003AC  A$3203_CtrlPID3$1539               3203_CtrlPID3
+C:   000003AD  A$3203_CtrlPID3$1540               3203_CtrlPID3
+C:   000003AF  A$3203_CtrlPID3$1543               3203_CtrlPID3
+C:   000003AF  C$serialInt_1.2.h$49$1$33          3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003B2  A$3203_CtrlPID3$1544               3203_CtrlPID3
+C:   000003B5  A$3203_CtrlPID3$1545               3203_CtrlPID3
+C:   000003B7  A$3203_CtrlPID3$1546               3203_CtrlPID3
+C:   000003B9  A$3203_CtrlPID3$1547               3203_CtrlPID3
+C:   000003BC  A$3203_CtrlPID3$1550               3203_CtrlPID3
+C:   000003BC  C$serialInt_1.2.h$50$1$33          3203_CtrlPID3
+C:   000003BE  A$3203_CtrlPID3$1551               3203_CtrlPID3
+C:   000003C0  A$3203_CtrlPID3$1552               3203_CtrlPID3
+C:   000003C3  A$3203_CtrlPID3$1553               3203_CtrlPID3
+C:   000003C6  A$3203_CtrlPID3$1554               3203_CtrlPID3
+C:   000003C8  A$3203_CtrlPID3$1555               3203_CtrlPID3
+C:   000003CA  A$3203_CtrlPID3$1556               3203_CtrlPID3
+C:   000003CD  A$3203_CtrlPID3$1557               3203_CtrlPID3
+C:   000003CF  A$3203_CtrlPID3$1558               3203_CtrlPID3
+C:   000003D1  A$3203_CtrlPID3$1559               3203_CtrlPID3
+C:   000003D3  A$3203_CtrlPID3$1560               3203_CtrlPID3
+C:   000003D5  A$3203_CtrlPID3$1561               3203_CtrlPID3
+C:   000003D6  A$3203_CtrlPID3$1562               3203_CtrlPID3
+C:   000003D8  A$3203_CtrlPID3$1565               3203_CtrlPID3
+C:   000003D8  C$serialInt_1.2.h$51$1$33          3203_CtrlPID3
+C:   000003DB  A$3203_CtrlPID3$1566               3203_CtrlPID3
+C:   000003DE  A$3203_CtrlPID3$1567               3203_CtrlPID3
+C:   000003E0  A$3203_CtrlPID3$1568               3203_CtrlPID3
+C:   000003E2  A$3203_CtrlPID3$1569               3203_CtrlPID3
+C:   000003E5  A$3203_CtrlPID3$1570               3203_CtrlPID3
+C:   000003E7  A$3203_CtrlPID3$1571               3203_CtrlPID3
+C:   000003E9  A$3203_CtrlPID3$1572               3203_CtrlPID3
+C:   000003EA  A$3203_CtrlPID3$1573               3203_CtrlPID3
+C:   000003EC  A$3203_CtrlPID3$1576               3203_CtrlPID3
+C:   000003EC  C$serialInt_1.2.h$52$1$33          3203_CtrlPID3
+C:   000003EC  XG$int2ascii$0$0                   3203_CtrlPID3
+C:   000003ED  A$3203_CtrlPID3$1591               3203_CtrlPID3
+C:   000003ED  C$serialInt_1.2.h$57$1$33          3203_CtrlPID3
+C:   000003ED  G$char2Ser$0$0                     3203_CtrlPID3
+C:   000003ED  _char2Ser                          3203_CtrlPID3
+C:   000003EF  A$3203_CtrlPID3$1594               3203_CtrlPID3
+C:   000003EF  C$serialInt_1.2.h$58$1$36          3203_CtrlPID3
+C:   000003F1  A$3203_CtrlPID3$1595               3203_CtrlPID3
+C:   000003F3  A$3203_CtrlPID3$1596               3203_CtrlPID3
+C:   000003F5  A$3203_CtrlPID3$1597               3203_CtrlPID3
+C:   000003F7  A$3203_CtrlPID3$1598               3203_CtrlPID3
+C:   000003F9  A$3203_CtrlPID3$1599               3203_CtrlPID3
+C:   000003FC  A$3203_CtrlPID3$1600               3203_CtrlPID3
+C:   000003FE  A$3203_CtrlPID3$1603               3203_CtrlPID3
+C:   000003FE  C$serialInt_1.2.h$59$1$36          3203_CtrlPID3
+C:   00000400  A$3203_CtrlPID3$1604               3203_CtrlPID3
+C:   00000402  A$3203_CtrlPID3$1607               3203_CtrlPID3
+C:   00000402  C$serialInt_1.2.h$60$1$36          3203_CtrlPID3
+C:   00000405  A$3203_CtrlPID3$1608               3203_CtrlPID3
+C:   00000408  A$3203_CtrlPID3$1609               3203_CtrlPID3
+C:   0000040B  A$3203_CtrlPID3$1610               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000040D  A$3203_CtrlPID3$1611               3203_CtrlPID3
+C:   00000410  A$3203_CtrlPID3$1614               3203_CtrlPID3
+C:   00000410  C$serialInt_1.2.h$61$1$36          3203_CtrlPID3
+C:   00000410  XG$char2Ser$0$0                    3203_CtrlPID3
+C:   00000411  A$3203_CtrlPID3$1629               3203_CtrlPID3
+C:   00000411  C$serialInt_1.2.h$65$1$36          3203_CtrlPID3
+C:   00000411  G$int2Ser$0$0                      3203_CtrlPID3
+C:   00000411  _int2Ser                           3203_CtrlPID3
+C:   00000413  A$3203_CtrlPID3$1632               3203_CtrlPID3
+C:   00000413  C$serialInt_1.2.h$66$1$38          3203_CtrlPID3
+C:   00000416  A$3203_CtrlPID3$1633               3203_CtrlPID3
+C:   00000419  A$3203_CtrlPID3$1634               3203_CtrlPID3
+C:   0000041B  A$3203_CtrlPID3$1635               3203_CtrlPID3
+C:   0000041E  A$3203_CtrlPID3$1636               3203_CtrlPID3
+C:   00000420  A$3203_CtrlPID3$1639               3203_CtrlPID3
+C:   00000420  C$serialInt_1.2.h$67$1$38          3203_CtrlPID3
+C:   00000421  A$3203_CtrlPID3$1640               3203_CtrlPID3
+C:   00000423  A$3203_CtrlPID3$1641               3203_CtrlPID3
+C:   00000425  A$3203_CtrlPID3$1642               3203_CtrlPID3
+C:   00000428  A$3203_CtrlPID3$1643               3203_CtrlPID3
+C:   0000042A  A$3203_CtrlPID3$1644               3203_CtrlPID3
+C:   0000042D  A$3203_CtrlPID3$1647               3203_CtrlPID3
+C:   0000042D  C$serialInt_1.2.h$68$1$38          3203_CtrlPID3
+C:   0000042D  XG$int2Ser$0$0                     3203_CtrlPID3
+C:   0000042E  A$3203_CtrlPID3$1660               3203_CtrlPID3
+C:   0000042E  C$3203_CtrlPID3.c$13$1$38          3203_CtrlPID3
+C:   0000042E  C$3203_CtrlPID3.c$14$1$39          3203_CtrlPID3
+C:   0000042E  G$RTproc_1$0$0                     3203_CtrlPID3
+C:   0000042E  _RTproc_1                          3203_CtrlPID3
+C:   00000430  A$3203_CtrlPID3$1661               3203_CtrlPID3
+C:   00000433  A$3203_CtrlPID3$1662               3203_CtrlPID3
+C:   00000435  A$3203_CtrlPID3$1666               3203_CtrlPID3
+C:   00000435  C$3203_CtrlPID3.c$15$1$39          3203_CtrlPID3
+C:   00000435  XG$RTproc_1$0$0                    3203_CtrlPID3
+C:   00000436  A$3203_CtrlPID3$1679               3203_CtrlPID3
+C:   00000436  C$3203_CtrlPID3.c$16$1$39          3203_CtrlPID3
+C:   00000436  C$3203_CtrlPID3.c$17$1$40          3203_CtrlPID3
+C:   00000436  G$RTproc_2$0$0                     3203_CtrlPID3
+C:   00000436  _RTproc_2                          3203_CtrlPID3
+C:   00000438  A$3203_CtrlPID3$1682               3203_CtrlPID3
+C:   00000438  C$3203_CtrlPID3.c$18$1$40          3203_CtrlPID3
+C:   00000438  XG$RTproc_2$0$0                    3203_CtrlPID3
+C:   00000439  A$3203_CtrlPID3$1697               3203_CtrlPID3
+C:   00000439  C$3203_CtrlPID3.c$20$1$40          3203_CtrlPID3
+C:   00000439  C$3203_CtrlPID3.c$21$1$40          3203_CtrlPID3
+C:   00000439  G$ajustPID$0$0                     3203_CtrlPID3
+C:   00000439  _ajustPID                          3203_CtrlPID3
+C:   0000043B  A$3203_CtrlPID3$1700               3203_CtrlPID3
+C:   0000043B  C$3203_CtrlPID3.c$22$1$40          3203_CtrlPID3
+C:   0000043D  A$3203_CtrlPID3$1703               3203_CtrlPID3
+C:   0000043D  C$3203_CtrlPID3.c$23$1$41          3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000440  A$3203_CtrlPID3$1707               3203_CtrlPID3
+C:   00000440  C$3203_CtrlPID3.c$24$3$43          3203_CtrlPID3
+C:   00000443  A$3203_CtrlPID3$1708               3203_CtrlPID3
+C:   00000446  A$3203_CtrlPID3$1712               3203_CtrlPID3
+C:   00000446  C$3203_CtrlPID3.c$25$2$42          3203_CtrlPID3
+C:   00000448  A$3203_CtrlPID3$1713               3203_CtrlPID3
+C:   0000044B  A$3203_CtrlPID3$1716               3203_CtrlPID3
+C:   0000044B  C$3203_CtrlPID3.c$26$3$43          3203_CtrlPID3
+C:   0000044E  A$3203_CtrlPID3$1719               3203_CtrlPID3
+C:   0000044E  C$3203_CtrlPID3.c$27$3$43          3203_CtrlPID3
+C:   0000044F  A$3203_CtrlPID3$1720               3203_CtrlPID3
+C:   00000451  A$3203_CtrlPID3$1721               3203_CtrlPID3
+C:   00000452  A$3203_CtrlPID3$1722               3203_CtrlPID3
+C:   00000453  A$3203_CtrlPID3$1723               3203_CtrlPID3
+C:   00000454  A$3203_CtrlPID3$1724               3203_CtrlPID3
+C:   00000455  A$3203_CtrlPID3$1725               3203_CtrlPID3
+C:   00000456  A$3203_CtrlPID3$1729               3203_CtrlPID3
+C:   00000456  C$3203_CtrlPID3.c$29$2$42          3203_CtrlPID3
+C:   00000458  A$3203_CtrlPID3$1730               3203_CtrlPID3
+C:   0000045B  A$3203_CtrlPID3$1733               3203_CtrlPID3
+C:   0000045B  C$3203_CtrlPID3.c$30$3$44          3203_CtrlPID3
+C:   0000045E  A$3203_CtrlPID3$1736               3203_CtrlPID3
+C:   0000045E  C$3203_CtrlPID3.c$31$3$44          3203_CtrlPID3
+C:   0000045F  A$3203_CtrlPID3$1737               3203_CtrlPID3
+C:   00000461  A$3203_CtrlPID3$1738               3203_CtrlPID3
+C:   00000462  A$3203_CtrlPID3$1739               3203_CtrlPID3
+C:   00000463  A$3203_CtrlPID3$1740               3203_CtrlPID3
+C:   00000464  A$3203_CtrlPID3$1741               3203_CtrlPID3
+C:   00000465  A$3203_CtrlPID3$1742               3203_CtrlPID3
+C:   00000466  A$3203_CtrlPID3$1746               3203_CtrlPID3
+C:   00000466  C$3203_CtrlPID3.c$33$2$42          3203_CtrlPID3
+C:   00000467  A$3203_CtrlPID3$1747               3203_CtrlPID3
+C:   00000469  A$3203_CtrlPID3$1748               3203_CtrlPID3
+C:   0000046C  A$3203_CtrlPID3$1749               3203_CtrlPID3
+C:   0000046F  A$3203_CtrlPID3$1750               3203_CtrlPID3
+C:   00000472  A$3203_CtrlPID3$1751               3203_CtrlPID3
+C:   00000474  A$3203_CtrlPID3$1752               3203_CtrlPID3
+C:   00000477  A$3203_CtrlPID3$1753               3203_CtrlPID3
+C:   00000479  A$3203_CtrlPID3$1757               3203_CtrlPID3
+C:   00000479  C$3203_CtrlPID3.c$34$2$42          3203_CtrlPID3
+C:   0000047C  A$3203_CtrlPID3$1758               3203_CtrlPID3
+C:   0000047F  A$3203_CtrlPID3$1759               3203_CtrlPID3
+C:   00000482  A$3203_CtrlPID3$1760               3203_CtrlPID3
+C:   00000485  A$3203_CtrlPID3$1761               3203_CtrlPID3
+C:   00000487  A$3203_CtrlPID3$1762               3203_CtrlPID3
+C:   0000048A  A$3203_CtrlPID3$1763               3203_CtrlPID3
+C:   0000048C  A$3203_CtrlPID3$1767               3203_CtrlPID3
+C:   0000048C  C$3203_CtrlPID3.c$35$2$42          3203_CtrlPID3
+C:   0000048F  A$3203_CtrlPID3$1768               3203_CtrlPID3
+C:   00000492  A$3203_CtrlPID3$1769               3203_CtrlPID3
+C:   00000495  A$3203_CtrlPID3$1770               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000498  A$3203_CtrlPID3$1771               3203_CtrlPID3
+C:   0000049A  A$3203_CtrlPID3$1772               3203_CtrlPID3
+C:   0000049D  A$3203_CtrlPID3$1773               3203_CtrlPID3
+C:   0000049F  A$3203_CtrlPID3$1777               3203_CtrlPID3
+C:   0000049F  C$3203_CtrlPID3.c$36$2$42          3203_CtrlPID3
+C:   000004A1  A$3203_CtrlPID3$1778               3203_CtrlPID3
+C:   000004A4  A$3203_CtrlPID3$1782               3203_CtrlPID3
+C:   000004A4  C$3203_CtrlPID3.c$37$2$42          3203_CtrlPID3
+C:   000004A6  A$3203_CtrlPID3$1783               3203_CtrlPID3
+C:   000004A9  A$3203_CtrlPID3$1784               3203_CtrlPID3
+C:   000004AB  A$3203_CtrlPID3$1788               3203_CtrlPID3
+C:   000004AB  C$3203_CtrlPID3.c$38$2$42          3203_CtrlPID3
+C:   000004AE  A$3203_CtrlPID3$1789               3203_CtrlPID3
+C:   000004B1  A$3203_CtrlPID3$1792               3203_CtrlPID3
+C:   000004B1  C$3203_CtrlPID3.c$39$3$45          3203_CtrlPID3
+C:   000004B3  A$3203_CtrlPID3$1793               3203_CtrlPID3
+C:   000004B4  A$3203_CtrlPID3$1796               3203_CtrlPID3
+C:   000004B4  C$3203_CtrlPID3.c$40$3$45          3203_CtrlPID3
+C:   000004B7  A$3203_CtrlPID3$1797               3203_CtrlPID3
+C:   000004B9  A$3203_CtrlPID3$1801               3203_CtrlPID3
+C:   000004B9  C$3203_CtrlPID3.c$42$2$42          3203_CtrlPID3
+C:   000004BB  A$3203_CtrlPID3$1802               3203_CtrlPID3
+C:   000004BE  A$3203_CtrlPID3$1806               3203_CtrlPID3
+C:   000004BE  C$3203_CtrlPID3.c$43$2$42          3203_CtrlPID3
+C:   000004C0  A$3203_CtrlPID3$1807               3203_CtrlPID3
+C:   000004C3  A$3203_CtrlPID3$1808               3203_CtrlPID3
+C:   000004C5  A$3203_CtrlPID3$1812               3203_CtrlPID3
+C:   000004C5  C$3203_CtrlPID3.c$44$2$42          3203_CtrlPID3
+C:   000004C8  A$3203_CtrlPID3$1813               3203_CtrlPID3
+C:   000004CB  A$3203_CtrlPID3$1815               3203_CtrlPID3
+C:   000004CE  A$3203_CtrlPID3$1818               3203_CtrlPID3
+C:   000004CE  C$3203_CtrlPID3.c$45$3$46          3203_CtrlPID3
+C:   000004D0  A$3203_CtrlPID3$1819               3203_CtrlPID3
+C:   000004D2  A$3203_CtrlPID3$1820               3203_CtrlPID3
+C:   000004D5  A$3203_CtrlPID3$1824               3203_CtrlPID3
+C:   000004D5  C$3203_CtrlPID3.c$47$1$41          3203_CtrlPID3
+C:   000004D5  XG$ajustPID$0$0                    3203_CtrlPID3
+C:   000004D6  A$3203_CtrlPID3$1849               3203_CtrlPID3
+C:   000004D6  C$3203_CtrlPID3.c$49$1$41          3203_CtrlPID3
+C:   000004D6  C$3203_CtrlPID3.c$50$1$41          3203_CtrlPID3
+C:   000004D6  G$main$0$0                         3203_CtrlPID3
+C:   000004D6  _main                              3203_CtrlPID3
+C:   000004D9  A$3203_CtrlPID3$1856               3203_CtrlPID3
+C:   000004D9  C$3203_CtrlPID3.c$51$1$41          3203_CtrlPID3
+C:   000004D9  C$3203_CtrlPID3.c$52$1$41          3203_CtrlPID3
+C:   000004D9  C$3203_CtrlPID3.c$54$1$41          3203_CtrlPID3
+C:   000004DA  A$3203_CtrlPID3$1857               3203_CtrlPID3
+C:   000004DC  A$3203_CtrlPID3$1858               3203_CtrlPID3
+C:   000004DE  A$3203_CtrlPID3$1859               3203_CtrlPID3
+C:   000004E0  A$3203_CtrlPID3$1860               3203_CtrlPID3
+C:   000004E2  A$3203_CtrlPID3$1863               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004E2  C$3203_CtrlPID3.c$57$1$41          3203_CtrlPID3
+C:   000004E4  A$3203_CtrlPID3$1864               3203_CtrlPID3
+C:   000004E6  A$3203_CtrlPID3$1867               3203_CtrlPID3
+C:   000004E6  C$3203_CtrlPID3.c$60$1$47          3203_CtrlPID3
+C:   000004E9  A$3203_CtrlPID3$1870               3203_CtrlPID3
+C:   000004E9  C$3203_CtrlPID3.c$62$1$47          3203_CtrlPID3
+C:   000004EB  A$3203_CtrlPID3$1873               3203_CtrlPID3
+C:   000004EB  C$3203_CtrlPID3.c$63$1$47          3203_CtrlPID3
+C:   000004ED  A$3203_CtrlPID3$1876               3203_CtrlPID3
+C:   000004ED  C$3203_CtrlPID3.c$64$1$47          3203_CtrlPID3
+C:   000004EF  A$3203_CtrlPID3$1877               3203_CtrlPID3
+C:   000004F2  A$3203_CtrlPID3$1878               3203_CtrlPID3
+C:   000004F5  A$3203_CtrlPID3$1881               3203_CtrlPID3
+C:   000004F7  A$3203_CtrlPID3$1885               3203_CtrlPID3
+C:   000004F7  C$3203_CtrlPID3.c$66$2$48          3203_CtrlPID3
+C:   000004F8  A$3203_CtrlPID3$1886               3203_CtrlPID3
+C:   000004FB  A$3203_CtrlPID3$1887               3203_CtrlPID3
+C:   000004FC  A$3203_CtrlPID3$1888               3203_CtrlPID3
+C:   000004FD  A$3203_CtrlPID3$1889               3203_CtrlPID3
+C:   000004FF  A$3203_CtrlPID3$1890               3203_CtrlPID3
+C:   00000501  A$3203_CtrlPID3$1891               3203_CtrlPID3
+C:   00000503  A$3203_CtrlPID3$1892               3203_CtrlPID3
+C:   00000506  A$3203_CtrlPID3$1893               3203_CtrlPID3
+C:   00000508  A$3203_CtrlPID3$1896               3203_CtrlPID3
+C:   00000508  C$3203_CtrlPID3.c$65$1$47          3203_CtrlPID3
+C:   00000509  A$3203_CtrlPID3$1897               3203_CtrlPID3
+C:   0000050C  A$3203_CtrlPID3$1899               3203_CtrlPID3
+C:   0000050E  A$3203_CtrlPID3$1902               3203_CtrlPID3
+C:   0000050E  C$3203_CtrlPID3.c$68$1$47          3203_CtrlPID3
+C:   00000510  A$3203_CtrlPID3$1903               3203_CtrlPID3
+C:   00000513  A$3203_CtrlPID3$1904               3203_CtrlPID3
+C:   00000516  A$3203_CtrlPID3$1907               3203_CtrlPID3
+C:   00000518  A$3203_CtrlPID3$1911               3203_CtrlPID3
+C:   00000518  C$3203_CtrlPID3.c$70$2$49          3203_CtrlPID3
+C:   00000519  A$3203_CtrlPID3$1912               3203_CtrlPID3
+C:   0000051C  A$3203_CtrlPID3$1913               3203_CtrlPID3
+C:   0000051D  A$3203_CtrlPID3$1914               3203_CtrlPID3
+C:   0000051E  A$3203_CtrlPID3$1915               3203_CtrlPID3
+C:   00000520  A$3203_CtrlPID3$1916               3203_CtrlPID3
+C:   00000522  A$3203_CtrlPID3$1917               3203_CtrlPID3
+C:   00000524  A$3203_CtrlPID3$1918               3203_CtrlPID3
+C:   00000527  A$3203_CtrlPID3$1919               3203_CtrlPID3
+C:   00000529  A$3203_CtrlPID3$1922               3203_CtrlPID3
+C:   00000529  C$3203_CtrlPID3.c$69$1$47          3203_CtrlPID3
+C:   0000052A  A$3203_CtrlPID3$1923               3203_CtrlPID3
+C:   0000052D  A$3203_CtrlPID3$1925               3203_CtrlPID3
+C:   0000052F  A$3203_CtrlPID3$1928               3203_CtrlPID3
+C:   0000052F  C$3203_CtrlPID3.c$73$1$47          3203_CtrlPID3
+C:   00000532  A$3203_CtrlPID3$1934               3203_CtrlPID3
+C:   00000532  C$3203_CtrlPID3.c$74$1$47          3203_CtrlPID3
+C:   00000532  C$3203_CtrlPID3.c$76$2$50          3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000534  A$3203_CtrlPID3$1935               3203_CtrlPID3
+C:   00000537  A$3203_CtrlPID3$1938               3203_CtrlPID3
+C:   00000537  C$3203_CtrlPID3.c$77$3$51          3203_CtrlPID3
+C:   0000053A  A$3203_CtrlPID3$1939               3203_CtrlPID3
+C:   0000053C  A$3203_CtrlPID3$1943               3203_CtrlPID3
+C:   0000053C  C$3203_CtrlPID3.c$79$2$50          3203_CtrlPID3
+C:   0000053E  A$3203_CtrlPID3$1944               3203_CtrlPID3
+C:   00000541  A$3203_CtrlPID3$1947               3203_CtrlPID3
+C:   00000541  C$3203_CtrlPID3.c$80$3$52          3203_CtrlPID3
+C:   00000544  A$3203_CtrlPID3$1948               3203_CtrlPID3
+C:   00000546  A$3203_CtrlPID3$1952               3203_CtrlPID3
+C:   00000546  C$3203_CtrlPID3.c$82$2$50          3203_CtrlPID3
+C:   00000548  A$3203_CtrlPID3$1953               3203_CtrlPID3
+C:   0000054B  A$3203_CtrlPID3$1954               3203_CtrlPID3
+C:   0000054D  A$3203_CtrlPID3$1955               3203_CtrlPID3
+C:   00000550  A$3203_CtrlPID3$1958               3203_CtrlPID3
+C:   00000550  C$3203_CtrlPID3.c$83$3$53          3203_CtrlPID3
+C:   00000551  A$3203_CtrlPID3$1959               3203_CtrlPID3
+C:   00000553  A$3203_CtrlPID3$1960               3203_CtrlPID3
+C:   00000555  A$3203_CtrlPID3$1961               3203_CtrlPID3
+C:   00000557  A$3203_CtrlPID3$1962               3203_CtrlPID3
+C:   00000559  A$3203_CtrlPID3$1965               3203_CtrlPID3
+C:   00000559  C$3203_CtrlPID3.c$84$3$53          3203_CtrlPID3
+C:   0000055C  A$3203_CtrlPID3$1969               3203_CtrlPID3
+C:   0000055C  C$3203_CtrlPID3.c$87$2$50          3203_CtrlPID3
+C:   0000055F  A$3203_CtrlPID3$1970               3203_CtrlPID3
+C:   00000562  A$3203_CtrlPID3$1971               3203_CtrlPID3
+C:   00000565  A$3203_CtrlPID3$1972               3203_CtrlPID3
+C:   00000568  A$3203_CtrlPID3$1975               3203_CtrlPID3
+C:   00000568  C$3203_CtrlPID3.c$88$2$50          3203_CtrlPID3
+C:   0000056B  A$3203_CtrlPID3$1976               3203_CtrlPID3
+C:   0000056E  A$3203_CtrlPID3$1977               3203_CtrlPID3
+C:   00000571  A$3203_CtrlPID3$1978               3203_CtrlPID3
+C:   00000574  A$3203_CtrlPID3$1981               3203_CtrlPID3
+C:   00000574  C$3203_CtrlPID3.c$90$2$50          3203_CtrlPID3
+C:   00000577  A$3203_CtrlPID3$1982               3203_CtrlPID3
+C:   0000057A  A$3203_CtrlPID3$1983               3203_CtrlPID3
+C:   0000057D  A$3203_CtrlPID3$1984               3203_CtrlPID3
+C:   00000580  A$3203_CtrlPID3$1987               3203_CtrlPID3
+C:   00000580  C$3203_CtrlPID3.c$91$2$50          3203_CtrlPID3
+C:   00000583  A$3203_CtrlPID3$1988               3203_CtrlPID3
+C:   00000586  A$3203_CtrlPID3$1989               3203_CtrlPID3
+C:   00000589  A$3203_CtrlPID3$1990               3203_CtrlPID3
+C:   0000058C  A$3203_CtrlPID3$1991               3203_CtrlPID3
+C:   0000058F  A$3203_CtrlPID3$1994               3203_CtrlPID3
+C:   0000058F  C$3203_CtrlPID3.c$92$2$50          3203_CtrlPID3
+C:   00000592  A$3203_CtrlPID3$1995               3203_CtrlPID3
+C:   00000595  A$3203_CtrlPID3$1996               3203_CtrlPID3
+C:   00000598  A$3203_CtrlPID3$1997               3203_CtrlPID3
+C:   0000059B  A$3203_CtrlPID3$2000               3203_CtrlPID3
+C:   0000059B  C$3203_CtrlPID3.c$93$2$50          3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000059E  A$3203_CtrlPID3$2001               3203_CtrlPID3
+C:   000005A1  A$3203_CtrlPID3$2002               3203_CtrlPID3
+C:   000005A4  A$3203_CtrlPID3$2003               3203_CtrlPID3
+C:   000005A7  A$3203_CtrlPID3$2004               3203_CtrlPID3
+C:   000005AA  A$3203_CtrlPID3$2008               3203_CtrlPID3
+C:   000005AA  C$3203_CtrlPID3.c$94$2$50          3203_CtrlPID3
+C:   000005AD  A$3203_CtrlPID3$2009               3203_CtrlPID3
+C:   000005AF  A$3203_CtrlPID3$2013               3203_CtrlPID3
+C:   000005AF  C$3203_CtrlPID3.c$95$2$50          3203_CtrlPID3
+C:   000005B2  A$3203_CtrlPID3$2016               3203_CtrlPID3
+C:   000005B2  C$3203_CtrlPID3.c$97$2$50          3203_CtrlPID3
+C:   000005B4  A$3203_CtrlPID3$2019               3203_CtrlPID3
+C:   000005B4  C$3203_CtrlPID3.c$98$2$50          3203_CtrlPID3
+C:   000005B7  A$3203_CtrlPID3$2020               3203_CtrlPID3
+C:   000005BA  A$3203_CtrlPID3$2023               3203_CtrlPID3
+C:   000005BA  C$3203_CtrlPID3.c$101$2$50         3203_CtrlPID3
+C:   000005BD  A$3203_CtrlPID3$2026               3203_CtrlPID3
+C:   000005BD  C$3203_CtrlPID3.c$102$2$50         3203_CtrlPID3
+C:   000005BF  A$3203_CtrlPID3$2027               3203_CtrlPID3
+C:   000005C0  A$3203_CtrlPID3$2028               3203_CtrlPID3
+C:   000005C2  A$3203_CtrlPID3$2031               3203_CtrlPID3
+C:   000005C2  C$3203_CtrlPID3.c$104$2$50         3203_CtrlPID3
+C:   000005C4  A$3203_CtrlPID3$2032               3203_CtrlPID3
+C:   000005C7  A$3203_CtrlPID3$2033               3203_CtrlPID3
+C:   000005C8  A$3203_CtrlPID3$2034               3203_CtrlPID3
+C:   000005CA  A$3203_CtrlPID3$2035               3203_CtrlPID3
+C:   000005CC  A$3203_CtrlPID3$2036               3203_CtrlPID3
+C:   000005CE  A$3203_CtrlPID3$2037               3203_CtrlPID3
+C:   000005D0  A$3203_CtrlPID3$2038               3203_CtrlPID3
+C:   000005D2  A$3203_CtrlPID3$2039               3203_CtrlPID3
+C:   000005D4  A$3203_CtrlPID3$2040               3203_CtrlPID3
+C:   000005D5  A$3203_CtrlPID3$2041               3203_CtrlPID3
+C:   000005D7  A$3203_CtrlPID3$2042               3203_CtrlPID3
+C:   000005D9  A$3203_CtrlPID3$2043               3203_CtrlPID3
+C:   000005DB  A$3203_CtrlPID3$2044               3203_CtrlPID3
+C:   000005DD  A$3203_CtrlPID3$2045               3203_CtrlPID3
+C:   000005DF  A$3203_CtrlPID3$2046               3203_CtrlPID3
+C:   000005E0  A$3203_CtrlPID3$2047               3203_CtrlPID3
+C:   000005E2  A$3203_CtrlPID3$2048               3203_CtrlPID3
+C:   000005E3  A$3203_CtrlPID3$2049               3203_CtrlPID3
+C:   000005E5  A$3203_CtrlPID3$2050               3203_CtrlPID3
+C:   000005E7  A$3203_CtrlPID3$2051               3203_CtrlPID3
+C:   000005E8  A$3203_CtrlPID3$2054               3203_CtrlPID3
+C:   000005E8  C$3203_CtrlPID3.c$105$2$50         3203_CtrlPID3
+C:   000005EB  A$3203_CtrlPID3$2055               3203_CtrlPID3
+C:   000005EE  A$3203_CtrlPID3$2056               3203_CtrlPID3
+C:   000005F0  A$3203_CtrlPID3$2057               3203_CtrlPID3
+C:   000005F2  A$3203_CtrlPID3$2058               3203_CtrlPID3
+C:   000005F4  A$3203_CtrlPID3$2059               3203_CtrlPID3
+C:   000005F6  A$3203_CtrlPID3$2060               3203_CtrlPID3
+C:   000005F8  A$3203_CtrlPID3$2061               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005FA  A$3203_CtrlPID3$2062               3203_CtrlPID3
+C:   000005FD  A$3203_CtrlPID3$2063               3203_CtrlPID3
+C:   00000600  A$3203_CtrlPID3$2064               3203_CtrlPID3
+C:   00000603  A$3203_CtrlPID3$2065               3203_CtrlPID3
+C:   00000606  A$3203_CtrlPID3$2066               3203_CtrlPID3
+C:   00000608  A$3203_CtrlPID3$2067               3203_CtrlPID3
+C:   0000060A  A$3203_CtrlPID3$2068               3203_CtrlPID3
+C:   0000060C  A$3203_CtrlPID3$2069               3203_CtrlPID3
+C:   0000060E  A$3203_CtrlPID3$2070               3203_CtrlPID3
+C:   00000610  A$3203_CtrlPID3$2071               3203_CtrlPID3
+C:   00000612  A$3203_CtrlPID3$2072               3203_CtrlPID3
+C:   00000615  A$3203_CtrlPID3$2073               3203_CtrlPID3
+C:   00000618  A$3203_CtrlPID3$2074               3203_CtrlPID3
+C:   0000061A  A$3203_CtrlPID3$2075               3203_CtrlPID3
+C:   0000061C  A$3203_CtrlPID3$2076               3203_CtrlPID3
+C:   0000061E  A$3203_CtrlPID3$2077               3203_CtrlPID3
+C:   00000620  A$3203_CtrlPID3$2078               3203_CtrlPID3
+C:   00000622  A$3203_CtrlPID3$2079               3203_CtrlPID3
+C:   00000624  A$3203_CtrlPID3$2080               3203_CtrlPID3
+C:   00000627  A$3203_CtrlPID3$2081               3203_CtrlPID3
+C:   0000062A  A$3203_CtrlPID3$2082               3203_CtrlPID3
+C:   0000062D  A$3203_CtrlPID3$2083               3203_CtrlPID3
+C:   00000630  A$3203_CtrlPID3$2084               3203_CtrlPID3
+C:   00000632  A$3203_CtrlPID3$2085               3203_CtrlPID3
+C:   00000634  A$3203_CtrlPID3$2086               3203_CtrlPID3
+C:   00000636  A$3203_CtrlPID3$2087               3203_CtrlPID3
+C:   00000638  A$3203_CtrlPID3$2088               3203_CtrlPID3
+C:   0000063A  A$3203_CtrlPID3$2089               3203_CtrlPID3
+C:   0000063C  A$3203_CtrlPID3$2090               3203_CtrlPID3
+C:   0000063F  A$3203_CtrlPID3$2091               3203_CtrlPID3
+C:   00000642  A$3203_CtrlPID3$2092               3203_CtrlPID3
+C:   00000644  A$3203_CtrlPID3$2093               3203_CtrlPID3
+C:   00000646  A$3203_CtrlPID3$2094               3203_CtrlPID3
+C:   00000648  A$3203_CtrlPID3$2095               3203_CtrlPID3
+C:   0000064A  A$3203_CtrlPID3$2096               3203_CtrlPID3
+C:   0000064C  A$3203_CtrlPID3$2097               3203_CtrlPID3
+C:   0000064E  A$3203_CtrlPID3$2098               3203_CtrlPID3
+C:   00000651  A$3203_CtrlPID3$2099               3203_CtrlPID3
+C:   00000654  A$3203_CtrlPID3$2100               3203_CtrlPID3
+C:   00000657  A$3203_CtrlPID3$2101               3203_CtrlPID3
+C:   0000065A  A$3203_CtrlPID3$2102               3203_CtrlPID3
+C:   0000065C  A$3203_CtrlPID3$2103               3203_CtrlPID3
+C:   0000065E  A$3203_CtrlPID3$2104               3203_CtrlPID3
+C:   00000660  A$3203_CtrlPID3$2105               3203_CtrlPID3
+C:   00000662  A$3203_CtrlPID3$2106               3203_CtrlPID3
+C:   00000664  A$3203_CtrlPID3$2107               3203_CtrlPID3
+C:   00000666  A$3203_CtrlPID3$2110               3203_CtrlPID3
+C:   00000666  C$3203_CtrlPID3.c$107$2$50         3203_CtrlPID3
+C:   00000667  A$3203_CtrlPID3$2111               3203_CtrlPID3
+C:   00000669  A$3203_CtrlPID3$2112               3203_CtrlPID3
+C:   0000066A  A$3203_CtrlPID3$2113               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000066B  A$3203_CtrlPID3$2114               3203_CtrlPID3
+C:   0000066D  A$3203_CtrlPID3$2115               3203_CtrlPID3
+C:   0000066E  A$3203_CtrlPID3$2116               3203_CtrlPID3
+C:   0000066F  A$3203_CtrlPID3$2117               3203_CtrlPID3
+C:   00000670  A$3203_CtrlPID3$2118               3203_CtrlPID3
+C:   00000671  A$3203_CtrlPID3$2119               3203_CtrlPID3
+C:   00000672  A$3203_CtrlPID3$2120               3203_CtrlPID3
+C:   00000673  A$3203_CtrlPID3$2121               3203_CtrlPID3
+C:   00000674  A$3203_CtrlPID3$2122               3203_CtrlPID3
+C:   00000675  A$3203_CtrlPID3$2123               3203_CtrlPID3
+C:   00000676  A$3203_CtrlPID3$2124               3203_CtrlPID3
+C:   00000678  A$3203_CtrlPID3$2125               3203_CtrlPID3
+C:   00000679  A$3203_CtrlPID3$2126               3203_CtrlPID3
+C:   0000067A  A$3203_CtrlPID3$2127               3203_CtrlPID3
+C:   0000067C  A$3203_CtrlPID3$2130               3203_CtrlPID3
+C:   0000067C  C$3203_CtrlPID3.c$108$2$50         3203_CtrlPID3
+C:   0000067D  A$3203_CtrlPID3$2131               3203_CtrlPID3
+C:   0000067F  A$3203_CtrlPID3$2132               3203_CtrlPID3
+C:   00000681  A$3203_CtrlPID3$2133               3203_CtrlPID3
+C:   00000683  A$3203_CtrlPID3$2134               3203_CtrlPID3
+C:   00000686  A$3203_CtrlPID3$2135               3203_CtrlPID3
+C:   00000689  A$3203_CtrlPID3$2136               3203_CtrlPID3
+C:   0000068B  A$3203_CtrlPID3$2137               3203_CtrlPID3
+C:   0000068D  A$3203_CtrlPID3$2138               3203_CtrlPID3
+C:   00000690  A$3203_CtrlPID3$2139               3203_CtrlPID3
+C:   00000693  A$3203_CtrlPID3$2143               3203_CtrlPID3
+C:   00000693  C$3203_CtrlPID3.c$109$2$50         3203_CtrlPID3
+C:   00000695  A$3203_CtrlPID3$2144               3203_CtrlPID3
+C:   00000698  A$3203_CtrlPID3$2145               3203_CtrlPID3
+C:   00000699  A$3203_CtrlPID3$2146               3203_CtrlPID3
+C:   0000069B  A$3203_CtrlPID3$2147               3203_CtrlPID3
+C:   0000069D  A$3203_CtrlPID3$2151               3203_CtrlPID3
+C:   0000069D  C$3203_CtrlPID3.c$110$1$47         3203_CtrlPID3
+C:   000006A0  A$3203_CtrlPID3$2152               3203_CtrlPID3
+C:   000006A3  A$3203_CtrlPID3$2153               3203_CtrlPID3
+C:   000006A6  A$3203_CtrlPID3$2154               3203_CtrlPID3
+C:   000006A9  A$3203_CtrlPID3$2155               3203_CtrlPID3
+C:   000006AC  A$3203_CtrlPID3$2156               3203_CtrlPID3
+C:   000006AF  A$3203_CtrlPID3$2157               3203_CtrlPID3
+C:   000006B2  A$3203_CtrlPID3$2158               3203_CtrlPID3
+C:   000006B4  A$3203_CtrlPID3$2159               3203_CtrlPID3
+C:   000006B6  A$3203_CtrlPID3$2160               3203_CtrlPID3
+C:   000006B8  A$3203_CtrlPID3$2164               3203_CtrlPID3
+C:   000006B8  C$3203_CtrlPID3.c$113$2$50         3203_CtrlPID3
+C:   000006BB  A$3203_CtrlPID3$2165               3203_CtrlPID3
+C:   000006BD  A$3203_CtrlPID3$2167               3203_CtrlPID3
+C:   000006BF  A$3203_CtrlPID3$2168               3203_CtrlPID3
+C:   000006C0  A$3203_CtrlPID3$2169               3203_CtrlPID3
+C:   000006C3  A$3203_CtrlPID3$2170               3203_CtrlPID3
+C:   000006C5  A$3203_CtrlPID3$2172               3203_CtrlPID3
+C:   000006C8  A$3203_CtrlPID3$2175               3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CB    000006CD =        1741. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000006C8  C$3203_CtrlPID3.c$114$1$47         3203_CtrlPID3
+C:   000006C8  XG$main$0$0                        3203_CtrlPID3
+C:   000006C9  __divuint                          _divuint
+C:   000006F2  __mulint                           _mulint
+C:   000006F2  __mulint_dummy                     _mulint
+C:   0000070F  __moduint                          _moduint
+C:   0000075C  __divsint                          _divsint
+C:   00000794  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000798    0000001E =          30. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000798  G$setLCD4$0$0                      3203_CtrlPID3
+C:   00000798  _setLCD4                           3203_CtrlPID3
+C:   0000079C  G$Tit1$0$0                         3203_CtrlPID3
+C:   0000079C  _Tit1                              3203_CtrlPID3
+C:   000007A9  G$Tit2$0$0                         3203_CtrlPID3
+C:   000007A9  _Tit2                              3203_CtrlPID3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+
+Files Linked                              [ module(s) ]
+
+3203_CtrlPID3.rel                         [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files (x86)\SDCC\bin\..\lib\small/libint.lib
+                                          [ _divuint.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/libint.lib
+                                          [ _mulint.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/libint.lib
+                                          [ _moduint.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/libint.lib
+                                          [ _divsint.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

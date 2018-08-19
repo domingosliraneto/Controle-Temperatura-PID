@@ -1,0 +1,68 @@
+/*---------------------------------------------------o
+;M2051 Lab023 include serialInt_1.1.h (20/04/2017)   o
+;Funções da interface serial p/ uRTOS v2.xx          o
+;Usando µRTOS v2.xx                                  o
+;---------------------------------------------------*/
+//----------------------------------------------------
+//Interrupção da Comunicação Serial
+void serial (void) __interrupt(4){
+    if(RI){
+        RI=0;			//zera flag rx
+        RxByte=SBUF;            //recebe do buffer
+        RxFlag=1;               //sinaliza recebido
+    }
+    else{
+        TI=0;
+        TxFlag=1;
+    }
+}
+
+//--------------------------------------------------
+//Envia valor com  até 5 dígitos + ponto <dot>
+void algs2ser(char spc, int asc0, char dot){
+    char i=0;
+    while(i<spc){
+        while(!TxFlag); TxFlag=0;   //aguarda serial
+        SBUF=32; i++;               //envia espaços
+    }
+    for(i=asc0;i<5;i++){
+        if(i==dot){
+            while(!TxFlag);TxFlag=0;//aguarda serial
+            SBUF=46;                //envia '.'
+        }
+        while(!TxFlag); TxFlag=0;   //aguarda serial
+        SBUF=(algs[i]);             //envia número
+    }
+}
+
+//--------------------------------------------------
+//Converte um valor <int> em sequencia ascii
+void int2ascii(unsigned int val){
+    algs[0]=32; algs[1]=32;
+    if(val>999){
+        algs[0]=0x30+(val/10000);
+        val=val%10000;
+        algs[1]=0x30+(val/1000);
+        val=val%1000;
+    }
+    algs[2]=0x30+(val/100);
+    val=val%100;
+    algs[3]=0x30+(val/10);
+    algs[4]=0x30+(val%10);
+}
+
+//--------------------------------------------------
+//Escreve o valor de uma variavel <char> na serial
+//com ponto fixo na posição <dot>.
+void char2Ser(char spc, unsigned char val, char dot){
+    int2ascii(val);
+    dot=dot+2;
+    algs2ser(spc, 2, dot);
+}
+
+//--------------------------------------------------
+//Escreve o valor de uma variavel <int> na serial
+void int2Ser(char spc, unsigned int val, char dot){
+    int2ascii(val);
+    algs2ser(spc, 0, dot);
+}
